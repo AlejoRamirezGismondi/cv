@@ -8,13 +8,20 @@ const Resume = () => {
       <div className={'content'}>
         <div className={'left-content'}>
           <Paper className={'left-paper'} elevation={4}>
-            <div className={'title-container'}>
+            <div className={'title-container left-paper-section'}>
               <h1 className={'title'}>Alejo Ramírez Gismondi</h1>
               <h3>Software Engineer</h3>
             </div>
-            <div>
+            <div className={'left-paper-section'}>
+              <h2>About Me</h2>
+              <p>I enjoy trying different outlets and activities</p>
+              <p>Tae-Kwon-Do ITF Red Belt</p>
+              <p>Currently applying for a student exchange at Nagoya University of Commerce and Business (NUCB), Japan</p>
+            </div>
+            <div className={'left-paper-section'}>
               <h2>Contact</h2>
-              <p>ramirezgismondialejo@gmail.com</p>
+              <p><a href={'mailto: ramirezgismondialejo@gmail.com'}>ramirezgismondialejo@gmail.com</a></p>
+              <p>Github</p>
               <p>No socials for now :D</p>
             </div>
           </Paper>
