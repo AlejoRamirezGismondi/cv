@@ -1,0 +1,26 @@
+.root {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    flex: 2;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.content {
+    display: flex;
+    flex: 8;
+    max-width: 80%;
+}
+
+.left-bar {
+
+}
+
+.right-content {
+
+}
