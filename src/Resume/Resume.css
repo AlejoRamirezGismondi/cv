@@ -1,26 +1,47 @@
 .root {
     display: flex;
     flex-direction: column;
-}
-
-.header {
-    display: flex;
-    flex: 2;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    height: 100vh;
 }
 
 .content {
     display: flex;
-    flex: 8;
-    max-width: 80%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-width: 80%;
+    height: 80vh;
 }
 
-.left-bar {
+.left-content {
+    display: flex;
+    flex: 2;
+    justify-content: center;
+    align-items: center;
+}
 
+.left-paper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 80vh;
 }
 
 .right-content {
+    display: flex;
+    flex: 8;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.education {
+
+}
+
+.technical-skills {
 
 }
