@@ -1,6 +1,6 @@
 import React from 'react';
 import './Resume.css';
-import {Paper} from "@mui/material";
+import {Card, CardContent, Paper} from "@mui/material";
 
 const Resume = () => {
   return (
@@ -38,9 +38,40 @@ const Resume = () => {
           </div>
           <div className={'technical-skills'}>
             <h4>Technical Skills</h4>
+            <ul>
+              <li>Front-end web development: HTML, CSS, Javascript, Thymeleaf, Bootstrap 4</li>
+              <li>Angular, React, Typescript, SCSS</li>
+              <li>Back-end web development: Spring, Node, Java, Scala, Elixir, Haskell</li>
+              <li>Docker, Kubernetes</li>
+              <li>3DSMax, Photoshop, Word, Excel, Powerpoint</li>
+            </ul>
           </div>
-          <div>skills</div>
-          <div>work experience</div>
+          <div className={'skills'}>
+            <h4>Skills</h4>
+            <ul>
+              <li>Exceptionally organized and responsible</li>
+              <li>Native spanish speaker</li>
+              <li>Bilingual english speaker</li>
+              <li>Basic homeschooled greek</li>
+              <li>Basic self-taught japanese</li>
+            </ul>
+          </div>
+          <div className={'work-experience'}>
+            <h4>Work Experience</h4>
+            <Card>
+              <CardContent>
+                <div className={'header'}>
+                  <p>For Pulse Studio in ElegiMejor.com.ar as Front-end Web Developer</p>
+                  <p>AUG 2020 - JUN 2021</p>
+                  <ul>
+                    <li>Front-end development in Angular</li>
+                    <li>Created and updated new pages for social insurance companies</li>
+                    <li>In charge of implementing Search Engine Optimization (SEO) for the webpage</li>
+                  </ul>
+                </div>
+              </CardContent>
+            </Card>
+          </div>
         </div>
       </div>
     </div>
