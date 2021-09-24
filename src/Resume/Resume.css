@@ -4,6 +4,14 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-image: url("/src/assets/images/blob-scene-haikei-light.svg");
+    background-size: cover;
+}
+
+a {
+    vertical-align: middle;
+    margin: 3px;
+    text-decoration: none;
 }
 
 .content {
@@ -34,6 +42,15 @@
 
 .left-paper-section {
     width: 100%;
+}
+
+.profile-pic {
+    max-height: 120px;
+    max-width: 120px;
+    border-radius: 50%;
+    /*border-width: 1px;*/
+    /*border-color: black;*/
+    /*border-style: solid;*/
 }
 
 .title-container {

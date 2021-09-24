@@ -1,6 +1,10 @@
 import React from 'react';
 import './Resume.css';
-import {Card, CardContent, Paper} from "@mui/material";
+import {Card, CardContent, Paper} from '@mui/material';
+import ChevronRightIcon from '@mui/icons-material/ChevronRight';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import MailOutlineIcon from '@mui/icons-material/MailOutline';
+import profilePic from '../assets/images/profile-pic.jpg';
 
 const Resume = () => {
   return (
@@ -9,6 +13,7 @@ const Resume = () => {
         <div className={'left-content'}>
           <Paper className={'left-paper'} elevation={4}>
             <div className={'title-container left-paper-section'}>
+              <img className={'profile-pic'} alt={'Profile Pic'} src={profilePic}/>
               <h1 className={'title'}>Alejo Ramírez Gismondi</h1>
               <h3>Software Engineer</h3>
             </div>
@@ -16,12 +21,12 @@ const Resume = () => {
               <h2>About Me</h2>
               <p>I enjoy trying different outlets and activities</p>
               <p>Tae-Kwon-Do ITF Red Belt</p>
-              <p>Currently applying for a student exchange at Nagoya University of Commerce and Business (NUCB), Japan</p>
+              <p><a href={'https://mba.nucba.ac.jp/en/ranking/'}>Currently applying for a student exchange at Nagoya University of Commerce and Business, Japan</a></p>
             </div>
             <div className={'left-paper-section'}>
               <h2>Contact</h2>
-              <p><a href={'mailto: ramirezgismondialejo@gmail.com'}>ramirezgismondialejo@gmail.com</a></p>
-              <p>Github</p>
+              <p><a href={'mailto: ramirezgismondialejo@gmail.com'}><MailOutlineIcon fontSize={'small'}/></a>ramirezgismondialejo@gmail.com</p>
+              <p><a href={'https://github.com/AlejoRamirezGismondi'}><GitHubIcon fontSize={'small'}/></a>Github</p>
               <p>No socials for now :D</p>
             </div>
           </Paper>
@@ -31,9 +36,9 @@ const Resume = () => {
             <div className={'education'}>
               <h4>Education</h4>
               <ul>
-                <li><a href={'https://holycross.ar/'}>Holy Cross Boys School</a></li>
-                <li><a href={'https://www.austral.edu.ar/ingresantes/carreras/ingenieria-en-informatica/'}>Universidad Austral:</a> Ingeniería
-                  Informática (4th out of 5 years)</li>
+                <li>Holy Cross Boys School<a href={'https://holycross.ar/'}><ChevronRightIcon fontSize={'small'}/></a></li>
+                <li>IGCSE: English A*, Literature A*</li>
+                <li>Universidad Austral: Ingeniería Informática (4th out of 5 years)<a href={'https://www.austral.edu.ar/ingresantes/carreras/ingenieria-en-informatica/'}><ChevronRightIcon fontSize={'small'}/></a></li>
                 <li>IELTS Academic: Overall Band 8.5</li>
                 <div>
                   <p>Online Courses</p>
@@ -73,7 +78,7 @@ const Resume = () => {
               <Card>
                 <CardContent>
                   <div className={'header'}>
-                    <p>For Pulse Studio in ElegiMejor.com.ar as Front-end Web Developer</p>
+                    <p>Front-end Web Developer for Pulse Studio in ElegiMejor.com.ar</p>
                     <p>AUG 2020 - JUN 2021</p>
                     <ul>
                       <li>Front-end development in Angular</li>
