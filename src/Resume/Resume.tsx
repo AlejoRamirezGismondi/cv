@@ -20,7 +20,6 @@ const Resume = () => {
             <div className={'left-paper-section'}>
               <h2>About Me</h2>
               <p>I enjoy trying different outlets and activities</p>
-              <p>Tae-Kwon-Do ITF Red Belt</p>
               <p><a href={'https://mba.nucba.ac.jp/en/ranking/'}>Currently applying for a student exchange at Nagoya University of Commerce and Business, Japan</a></p>
             </div>
             <div className={'left-paper-section'}>
@@ -55,6 +54,7 @@ const Resume = () => {
               <h4>Skills</h4>
               <ul>
                 <li>Exceptionally organized and responsible</li>
+                <li>Tae-Kwon-Do ITF Red Belt</li>
                 <li>Native spanish speaker</li>
                 <li>Bilingual english speaker</li>
                 <li>Basic homeschooled greek</li>
