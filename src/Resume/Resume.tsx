@@ -92,7 +92,7 @@ const Resume = () => {
                     <p>AUG 2020 - JUN 2021</p>
                     <ul>
                       <li>Front-end development in Angular</li>
-                      <li>Created and updated new pages for social insurance companies</li>
+                      <li>Created and updated new pages for health insurance companies</li>
                       <li>In charge of implementing Search Engine Optimization (SEO) for the webpage</li>
                     </ul>
                   </div>
