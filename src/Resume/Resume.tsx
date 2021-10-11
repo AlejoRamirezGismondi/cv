@@ -5,8 +5,11 @@ import ChevronRightIcon from '@mui/icons-material/ChevronRight';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
 import profilePic from '../assets/images/profile-pic.jpg';
+import {getLogos} from "./Logos";
 
 const Resume = () => {
+  const logos = getLogos();
+
   return (
     <div className={'root'}>
       <div className={'content'}>
@@ -37,7 +40,7 @@ const Resume = () => {
               <ul>
                 <li>Holy Cross Boys School<a href={'https://holycross.ar/'}><ChevronRightIcon fontSize={'small'}/></a></li>
                 <li>IGCSE: English A*, Literature A*</li>
-                <li>Universidad Austral: Ingeniería Informática (4th out of 5 years)<a href={'https://www.austral.edu.ar/ingresantes/carreras/ingenieria-en-informatica/'}><ChevronRightIcon fontSize={'small'}/></a></li>
+                <li>Universidad Austral: Ingeniería Informática (currently in 4th out of 5 years)<a href={'https://www.austral.edu.ar/ingresantes/carreras/ingenieria-en-informatica/'}><ChevronRightIcon fontSize={'small'}/></a></li>
                 <li>IELTS Academic: Overall Band 8.5</li>
                 <div>
                   <p>Online Courses</p>
@@ -63,7 +66,14 @@ const Resume = () => {
             </div>
           </div>
           <div className={'technical-skills'}>
-            <h4>Technical Skills</h4>
+            <div className={'technical-header'}>
+              <h4>Technical Skills</h4>
+              <div className={'logo-roulette'}>
+                {logos.map(logo => {
+                  return <img className={'logo'} src={logo.image} alt={logo.alt} key={logo.alt}/>
+                })}
+              </div>
+            </div>
             <ul>
               <li>Front-end web development: HTML, CSS, Javascript, Thymeleaf, Bootstrap 4</li>
               <li>Angular, React, React Native, Typescript, SCSS</li>

@@ -58,6 +58,7 @@ a {
 
 .title {
     font-size: x-large;
+    text-align: center;
 }
 
 .right-content {
@@ -83,6 +84,11 @@ a {
     height: 100%;
 }
 
+.technical-header {
+    display: flex;
+    align-items: center;
+}
+
 .skills {
     height: 100%;
 }
@@ -95,6 +101,25 @@ a {
 
 .work-experience {
     height: 100%;
+}
+
+.logo {
+    max-height: 30px;
+    max-width: 30px;
+}
+
+.logo-roulette {
+    max-height: 50px;
+    display: flex;
+    padding: 0 10px;
+    overflow-x: scroll;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.logo-roulette::-webkit-scrollbar {
+    display: none;
 }
 
 @media screen and (max-width: 900px) {
