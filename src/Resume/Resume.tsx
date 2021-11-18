@@ -12,7 +12,7 @@ const Resume = () => {
     <div className={'root'}>
       <div className={'content'}>
         <div className={'left-content'}>
-          <Paper className={'left-paper'} elevation={4}>
+          <Paper sx={{backgroundColor: '#EBECF6'}} className={'left-paper'} elevation={4}>
             <div className={'title-container left-paper-section'}>
               <img className={'profile-pic'} alt={'Profile Pic'} src={profilePic}/>
               <h1 className={'title'}>Alejo Ramírez Gismondi</h1>
@@ -50,7 +50,7 @@ const Resume = () => {
                     <ChevronRightIcon className={'material-icons'} fontSize={'small'}/>
                   </a>
                 </li>
-                <li>IELTS Academic: Overall Band 8.5</li>
+                <li>IELTS Academic: Overall Band 8.5/9</li>
                 <div>
                   <p>Online Courses</p>
                   <ul>
@@ -77,11 +77,6 @@ const Resume = () => {
           <div className={'technical-skills'}>
             <div className={'technical-header'}>
               <h4>Technical Skills</h4>
-              {/*<div className={'logo-roulette'}>*/}
-              {/*  {logos.map(logo => {*/}
-              {/*    return <img className={'logo'} src={logo.image} alt={logo.alt} key={logo.alt}/>*/}
-              {/*  })}*/}
-              {/*</div>*/}
             </div>
             <ul>
               <li>Front-end development: HTML, CSS, Javascript, Typescript, SCSS</li>
@@ -93,9 +88,9 @@ const Resume = () => {
           </div>
           <div className={'work-experience'}>
             <h4>Work Experience</h4>
-            <Masonry columns={2} spacing={1}>
-                <Card className={'card'}>
-                  <CardContent>
+            <Masonry columns={{md: 2, sm: 1}} spacing={2}>
+                <Card>
+                  <CardContent className={'card'}>
                     <div>
                       <p>Front-end Web Developer for Pulse Studio in ElegiMejor.com.ar</p>
                       <p>AUG 2020 - JUN 2021</p>
@@ -107,8 +102,8 @@ const Resume = () => {
                     </div>
                   </CardContent>
                 </Card>
-                <Card className={'card'}>
-                  <CardContent>
+                <Card>
+                  <CardContent className={'card'}>
                     <div>
                       <p>
                         Front-end Developer - <a href={'https://ctd-project-b87864-c03f57533efc77530090.webflow.io/'}>
@@ -122,7 +117,7 @@ const Resume = () => {
                         <li>
                           Guided by Alex McDowell, Connect the Dots is a platform dedicated to Worldbuilding, connecting
                           people from all over the
-                          world in order to create and share inspiring narratives.
+                          world in order to create and share inspiring narratives
                         </li>
                       </ul>
                     </div>
