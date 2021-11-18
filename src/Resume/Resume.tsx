@@ -23,12 +23,14 @@ const Resume = () => {
             <div className={'left-paper-section'}>
               <h2>About Me</h2>
               <p>I enjoy trying different outlets and activities</p>
-              <p><a href={'https://mba.nucba.ac.jp/en/ranking/'}>Currently applying for a student exchange at Nagoya University of Commerce and Business, Japan</a></p>
+              <p><a href={'https://mba.nucba.ac.jp/en/ranking/'}>Currently applying for a student exchange at Nagoya
+                University of Commerce and Business, Japan</a></p>
             </div>
             <div className={'left-paper-section'}>
               <h2>Contact</h2>
-              <p><a href={'mailto: ramirezgismondialejo@gmail.com'}><MailOutlineIcon fontSize={'small'}/></a>ramirezgismondialejo@gmail.com</p>
-              <p><a href={'https://github.com/AlejoRamirezGismondi'}><GitHubIcon fontSize={'small'}/></a>Github</p>
+              <p><a href={'mailto: ramirezgismondialejo@gmail.com'}><MailOutlineIcon className={'material-icons'} fontSize={'small'}/></a>ramirezgismondialejo@gmail.com
+              </p>
+              <p><a href={'https://github.com/AlejoRamirezGismondi'}><GitHubIcon className={'material-icons'} fontSize={'small'}/></a>Github</p>
               <p>No socials for now :D</p>
             </div>
           </Paper>
@@ -38,9 +40,15 @@ const Resume = () => {
             <div className={'education'}>
               <h4>Education</h4>
               <ul>
-                <li>Holy Cross Boys School<a href={'https://holycross.ar/'}><ChevronRightIcon fontSize={'small'}/></a></li>
+                <li>Holy Cross Boys School<a href={'https://holycross.ar/'}><ChevronRightIcon className={'material-icons'} fontSize={'small'}/></a>
+                </li>
                 <li>IGCSE: English A*, Literature A*</li>
-                <li>Universidad Austral: Ingeniería Informática (currently in 4th out of 5 years)<a href={'https://www.austral.edu.ar/ingresantes/carreras/ingenieria-en-informatica/'}><ChevronRightIcon fontSize={'small'}/></a></li>
+                <li>
+                  Universidad Austral: Ingeniería Informática (currently in 4th out of 5 years)
+                  <a href={'https://www.austral.edu.ar/ingresantes/carreras/ingenieria-en-informatica/'}>
+                    <ChevronRightIcon className={'material-icons'} fontSize={'small'}/>
+                  </a>
+                </li>
                 <li>IELTS Academic: Overall Band 8.5</li>
                 <div>
                   <p>Online Courses</p>
@@ -68,15 +76,15 @@ const Resume = () => {
           <div className={'technical-skills'}>
             <div className={'technical-header'}>
               <h4>Technical Skills</h4>
-              <div className={'logo-roulette'}>
-                {logos.map(logo => {
-                  return <img className={'logo'} src={logo.image} alt={logo.alt} key={logo.alt}/>
-                })}
-              </div>
+              {/*<div className={'logo-roulette'}>*/}
+              {/*  {logos.map(logo => {*/}
+              {/*    return <img className={'logo'} src={logo.image} alt={logo.alt} key={logo.alt}/>*/}
+              {/*  })}*/}
+              {/*</div>*/}
             </div>
             <ul>
-              <li>Front-end web development: HTML, CSS, Javascript, Thymeleaf, Bootstrap 4</li>
-              <li>Angular, React, React Native, Typescript, SCSS</li>
+              <li>Front-end development: HTML, CSS, Javascript, Typescript, SCSS</li>
+              <li>Angular, React, React Native, GraphQL</li>
               <li>Back-end web development: Spring, Node, Java, Scala, Elixir, Haskell</li>
               <li>Docker, Kubernetes</li>
               <li>3DSMax, Photoshop, Word, Excel, Powerpoint</li>
@@ -85,15 +93,36 @@ const Resume = () => {
           <div className={'work-experience'}>
             <h4>Work Experience</h4>
             <div className={'work-experience-grid'}>
-              <Card>
+              <Card className={'card'}>
                 <CardContent>
-                  <div className={'header'}>
+                  <div>
                     <p>Front-end Web Developer for Pulse Studio in ElegiMejor.com.ar</p>
                     <p>AUG 2020 - JUN 2021</p>
                     <ul>
                       <li>Front-end development in Angular</li>
                       <li>Created and updated new pages for health insurance companies</li>
                       <li>In charge of implementing Search Engine Optimization (SEO) for the webpage</li>
+                    </ul>
+                  </div>
+                </CardContent>
+              </Card>
+              <Card className={'card'}>
+                <CardContent>
+                  <div>
+                    <p>
+                      Front-end Developer - <a href={'https://ctd-project-b87864-c03f57533efc77530090.webflow.io/'}>
+                        Connect the Dots <ChevronRightIcon className={'material-icons'} fontSize={'small'}/>
+                      </a>
+                    </p>
+                    <p>MAR 2021 - DEC 2021</p>
+                    <ul>
+                      <li>Web development in React</li>
+                      <li>Mobile development in React Native</li>
+                      <li>
+                        Guided by Alex McDowell, Connect the Dots is a platform dedicated to Worldbuilding, connecting
+                        people from all over the
+                        world in order to create and share inspiring narratives.
+                      </li>
                     </ul>
                   </div>
                 </CardContent>

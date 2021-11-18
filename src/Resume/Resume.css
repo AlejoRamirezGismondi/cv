@@ -4,14 +4,17 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: url("/src/assets/images/blob-scene-haikei-light.svg");
+    /*background-image: url("/src/assets/images/blob-scene-haikei-light.svg");*/
     background-size: cover;
 }
 
 a {
-    vertical-align: middle;
-    margin: 3px;
     text-decoration: none;
+}
+
+.material-icons {
+    vertical-align: middle;
+    margin: 1px;
 }
 
 .content {
@@ -95,12 +98,17 @@ a {
 
 .work-experience-grid {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
 .work-experience {
     height: 100%;
+    max-width: 60%;
+}
+
+.card {
+    max-width: 50%;
 }
 
 .logo {
