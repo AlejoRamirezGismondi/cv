@@ -44,7 +44,7 @@ a {
 }
 
 .left-paper-section {
-    width: 100%;
+    width: 90%;
 }
 
 .profile-pic {
@@ -98,7 +98,7 @@ a {
 
 .work-experience {
     height: 100%;
-    max-width: 60%;
+    max-width: 90%;
 }
 
 .card {
@@ -135,7 +135,7 @@ a {
     }
 
     .right-content {
-        flex: none;
+        flex-direction: column-reverse;
         padding: 10px 30px;
     }
 
@@ -156,5 +156,11 @@ a {
 @media screen and (max-width: 425px) {
     .left-paper {
         margin-top: 0;
+    }
+}
+
+@media print {
+    div, .card {
+        break-inside: avoid;
     }
 }

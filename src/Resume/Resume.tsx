@@ -19,19 +19,18 @@ const Resume = () => {
               <h3>Software Engineer</h3>
             </div>
             <div className={'left-paper-section'}>
-              <h2>About Me</h2>
-              <p>I enjoy trying different outlets and activities</p>
-              <p><a href={'https://mba.nucba.ac.jp/en/ranking/'}>Currently applying for a student exchange at Nagoya
-                University of Commerce and Business, Japan</a></p>
-            </div>
-            <div className={'left-paper-section'}>
               <h2>Contact</h2>
               <p><a href={'mailto: ramirezgismondialejo@gmail.com'}><MailOutlineIcon className={'material-icons'}
                                                                                      fontSize={'small'}/></a>ramirezgismondialejo@gmail.com
               </p>
-              <p><a href={'https://github.com/AlejoRamirezGismondi'}><GitHubIcon className={'material-icons'}
-                                                                                 fontSize={'small'}/></a>Github</p>
+              <p><a href={'https://github.com/AlejoRamirezGismondi'}><GitHubIcon fontSize={'small'}/> Github</a></p>
               <p>No socials for now :D</p>
+            </div>
+            <div className={'left-paper-section'}>
+              <h2>About Me</h2>
+              <p>I enjoy trying different outlets and activities</p>
+              <p><a href={'https://mba.nucba.ac.jp/en/ranking/'}>Currently applying for a student exchange at Nagoya
+                University of Commerce and Business, Japan</a></p>
             </div>
           </Paper>
         </div>
@@ -89,40 +88,40 @@ const Resume = () => {
           <div className={'work-experience'}>
             <h4>Work Experience</h4>
             <Masonry columns={{md: 2, sm: 1}} spacing={2}>
-                <Card>
-                  <CardContent className={'card'}>
-                    <div>
-                      <p>Front-end Web Developer for Pulse Studio in ElegiMejor.com.ar</p>
-                      <p>AUG 2020 - JUN 2021</p>
-                      <ul>
-                        <li>Front-end development in Angular</li>
-                        <li>Created and updated new pages for health insurance companies</li>
-                        <li>In charge of implementing Search Engine Optimization (SEO) for the webpage</li>
-                      </ul>
-                    </div>
-                  </CardContent>
-                </Card>
-                <Card>
-                  <CardContent className={'card'}>
-                    <div>
-                      <p>
-                        Front-end Developer - <a href={'https://ctd-project-b87864-c03f57533efc77530090.webflow.io/'}>
-                        Connect the Dots <ChevronRightIcon className={'material-icons'} fontSize={'small'}/>
-                      </a>
-                      </p>
-                      <p>MAR 2021 - DEC 2021</p>
-                      <ul>
-                        <li>Web development in React</li>
-                        <li>Mobile development in React Native</li>
-                        <li>
-                          Guided by Alex McDowell, Connect the Dots is a platform dedicated to Worldbuilding, connecting
-                          people from all over the
-                          world in order to create and share inspiring narratives
-                        </li>
-                      </ul>
-                    </div>
-                  </CardContent>
-                </Card>
+              <Card>
+                <CardContent className={'card'}>
+                  <div>
+                    <p>
+                      Front-end Developer - <a href={'https://ctd-project-b87864-c03f57533efc77530090.webflow.io/'}>
+                      Connect the Dots <ChevronRightIcon className={'material-icons'} fontSize={'small'}/>
+                    </a>
+                    </p>
+                    <p>MAR 2021 - DEC 2021</p>
+                    <ul>
+                      <li>Web development in React</li>
+                      <li>Mobile development in React Native</li>
+                      <li>
+                        Guided by Alex McDowell, Connect the Dots is a platform dedicated to Worldbuilding, connecting
+                        people from all over the
+                        world in order to create and share inspiring narratives
+                      </li>
+                    </ul>
+                  </div>
+                </CardContent>
+              </Card>
+              <Card>
+                <CardContent className={'card'}>
+                  <div>
+                    <p>Front-end Web Developer for Pulse Studio in ElegiMejor.com.ar</p>
+                    <p>AUG 2020 - JUN 2021</p>
+                    <ul>
+                      <li>Front-end development in Angular</li>
+                      <li>Created and updated new pages for health insurance companies</li>
+                      <li>In charge of implementing Search Engine Optimization (SEO) for the webpage</li>
+                    </ul>
+                  </div>
+                </CardContent>
+              </Card>
             </Masonry>
           </div>
         </div>
