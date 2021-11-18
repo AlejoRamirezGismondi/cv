@@ -5,11 +5,9 @@ import ChevronRightIcon from '@mui/icons-material/ChevronRight';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
 import profilePic from '../assets/images/profile-pic.jpg';
-import {getLogos} from "./Logos";
+import Masonry from '@mui/lab/Masonry';
 
 const Resume = () => {
-  const logos = getLogos();
-
   return (
     <div className={'root'}>
       <div className={'content'}>
@@ -28,9 +26,11 @@ const Resume = () => {
             </div>
             <div className={'left-paper-section'}>
               <h2>Contact</h2>
-              <p><a href={'mailto: ramirezgismondialejo@gmail.com'}><MailOutlineIcon className={'material-icons'} fontSize={'small'}/></a>ramirezgismondialejo@gmail.com
+              <p><a href={'mailto: ramirezgismondialejo@gmail.com'}><MailOutlineIcon className={'material-icons'}
+                                                                                     fontSize={'small'}/></a>ramirezgismondialejo@gmail.com
               </p>
-              <p><a href={'https://github.com/AlejoRamirezGismondi'}><GitHubIcon className={'material-icons'} fontSize={'small'}/></a>Github</p>
+              <p><a href={'https://github.com/AlejoRamirezGismondi'}><GitHubIcon className={'material-icons'}
+                                                                                 fontSize={'small'}/></a>Github</p>
               <p>No socials for now :D</p>
             </div>
           </Paper>
@@ -40,7 +40,8 @@ const Resume = () => {
             <div className={'education'}>
               <h4>Education</h4>
               <ul>
-                <li>Holy Cross Boys School<a href={'https://holycross.ar/'}><ChevronRightIcon className={'material-icons'} fontSize={'small'}/></a>
+                <li>Holy Cross Boys School<a href={'https://holycross.ar/'}><ChevronRightIcon
+                  className={'material-icons'} fontSize={'small'}/></a>
                 </li>
                 <li>IGCSE: English A*, Literature A*</li>
                 <li>
@@ -92,42 +93,42 @@ const Resume = () => {
           </div>
           <div className={'work-experience'}>
             <h4>Work Experience</h4>
-            <div className={'work-experience-grid'}>
-              <Card className={'card'}>
-                <CardContent>
-                  <div>
-                    <p>Front-end Web Developer for Pulse Studio in ElegiMejor.com.ar</p>
-                    <p>AUG 2020 - JUN 2021</p>
-                    <ul>
-                      <li>Front-end development in Angular</li>
-                      <li>Created and updated new pages for health insurance companies</li>
-                      <li>In charge of implementing Search Engine Optimization (SEO) for the webpage</li>
-                    </ul>
-                  </div>
-                </CardContent>
-              </Card>
-              <Card className={'card'}>
-                <CardContent>
-                  <div>
-                    <p>
-                      Front-end Developer - <a href={'https://ctd-project-b87864-c03f57533efc77530090.webflow.io/'}>
+            <Masonry columns={2} spacing={1}>
+                <Card className={'card'}>
+                  <CardContent>
+                    <div>
+                      <p>Front-end Web Developer for Pulse Studio in ElegiMejor.com.ar</p>
+                      <p>AUG 2020 - JUN 2021</p>
+                      <ul>
+                        <li>Front-end development in Angular</li>
+                        <li>Created and updated new pages for health insurance companies</li>
+                        <li>In charge of implementing Search Engine Optimization (SEO) for the webpage</li>
+                      </ul>
+                    </div>
+                  </CardContent>
+                </Card>
+                <Card className={'card'}>
+                  <CardContent>
+                    <div>
+                      <p>
+                        Front-end Developer - <a href={'https://ctd-project-b87864-c03f57533efc77530090.webflow.io/'}>
                         Connect the Dots <ChevronRightIcon className={'material-icons'} fontSize={'small'}/>
                       </a>
-                    </p>
-                    <p>MAR 2021 - DEC 2021</p>
-                    <ul>
-                      <li>Web development in React</li>
-                      <li>Mobile development in React Native</li>
-                      <li>
-                        Guided by Alex McDowell, Connect the Dots is a platform dedicated to Worldbuilding, connecting
-                        people from all over the
-                        world in order to create and share inspiring narratives.
-                      </li>
-                    </ul>
-                  </div>
-                </CardContent>
-              </Card>
-            </div>
+                      </p>
+                      <p>MAR 2021 - DEC 2021</p>
+                      <ul>
+                        <li>Web development in React</li>
+                        <li>Mobile development in React Native</li>
+                        <li>
+                          Guided by Alex McDowell, Connect the Dots is a platform dedicated to Worldbuilding, connecting
+                          people from all over the
+                          world in order to create and share inspiring narratives.
+                        </li>
+                      </ul>
+                    </div>
+                  </CardContent>
+                </Card>
+            </Masonry>
           </div>
         </div>
       </div>

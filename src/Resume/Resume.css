@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
     /*background-image: url("/src/assets/images/blob-scene-haikei-light.svg");*/
     background-size: cover;
 }
@@ -14,7 +14,7 @@ a {
 
 .material-icons {
     vertical-align: middle;
-    margin: 1px;
+    margin: 1px 2px 1px 1px;
 }
 
 .content {
@@ -23,12 +23,11 @@ a {
     justify-content: center;
     align-items: center;
     min-width: 80%;
-    height: 80vh;
 }
 
 .left-content {
     display: flex;
-    flex: 2;
+    flex: 3;
     justify-content: center;
     align-items: center;
 }
@@ -38,7 +37,7 @@ a {
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
-    width: 100%;
+    max-width: 85%;
     min-height: 80vh;
     padding: 10px;
 }
@@ -66,7 +65,7 @@ a {
 
 .right-content {
     display: flex;
-    flex: 8;
+    flex: 7;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -96,38 +95,35 @@ a {
     height: 100%;
 }
 
-.work-experience-grid {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
 .work-experience {
     height: 100%;
     max-width: 60%;
 }
 
-.card {
-    max-width: 50%;
-}
+/*.logo {*/
+/*    max-height: 30px;*/
+/*    max-width: 30px;*/
+/*}*/
 
-.logo {
-    max-height: 30px;
-    max-width: 30px;
-}
+/*.logo-roulette {*/
+/*    max-height: 50px;*/
+/*    display: flex;*/
+/*    padding: 0 10px;*/
+/*    overflow-x: scroll;*/
+/*    -ms-overflow-style: none;  !* IE and Edge *!*/
+/*    scrollbar-width: none;  !* Firefox *!*/
+/*}*/
 
-.logo-roulette {
-    max-height: 50px;
-    display: flex;
-    padding: 0 10px;
-    overflow-x: scroll;
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
-}
+/*!* Hide scrollbar for Chrome, Safari and Opera *!*/
+/*.logo-roulette::-webkit-scrollbar {*/
+/*    display: none;*/
+/*}*/
 
-/* Hide scrollbar for Chrome, Safari and Opera */
-.logo-roulette::-webkit-scrollbar {
-    display: none;
+@media screen and (max-width: 1440px) {
+    .work-experience {
+        max-width: 90%;
+        height: auto;
+    }
 }
 
 @media screen and (max-width: 900px) {
@@ -158,5 +154,9 @@ a {
 
     .container {
         flex-direction: column;
+    }
+
+    .work-experience {
+        max-width: 100%;
     }
 }
