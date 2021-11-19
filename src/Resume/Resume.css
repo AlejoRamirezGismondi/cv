@@ -85,6 +85,7 @@ a {
 
 .technical-skills {
     height: 100%;
+    z-index: 10;
 }
 
 .technical-header {
@@ -99,6 +100,7 @@ a {
 .work-experience {
     height: 100%;
     max-width: 90%;
+    z-index: 10;
 }
 
 .card {
