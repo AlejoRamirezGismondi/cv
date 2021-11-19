@@ -13,7 +13,6 @@ Github: https://github.com/AlejoRamirezGismondi
 ###Until ready to deploy:
 - Background
 - Profile Pic
-- Links to courses
 
 ###Next versions:
 - Printing

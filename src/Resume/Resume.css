@@ -4,7 +4,7 @@
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    /*background-image: url("/src/assets/images/blob-scene-haikei-light.svg");*/
+    background-image: url("/src/assets/images/blob-scene-haikei-light.svg");
     background-size: cover;
     background-color: #fafafa;
 }
