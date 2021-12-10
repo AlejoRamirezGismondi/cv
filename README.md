@@ -21,5 +21,7 @@ Github: https://github.com/AlejoRamirezGismondi
 - Accessibility
 - SEO
 - Download as PDF button
+- Logo carousel
+- Logo for work experience cards
 
 #### This Project Was Created Using React
