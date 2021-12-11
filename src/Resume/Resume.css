@@ -192,8 +192,7 @@ a {
     }
 
     .background-waves {
-        top: 0;
-        transform: rotate(180deg);
+        display: none;
     }
 
     .content {
@@ -217,7 +216,6 @@ a {
 
     .right-content {
         flex-direction: column-reverse;
-        padding: 10px 30px;
     }
 
     .container {
