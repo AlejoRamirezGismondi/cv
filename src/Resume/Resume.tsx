@@ -33,6 +33,29 @@ const Resume = () => {
 
   return (
     <div className={'root'}>
+      <svg width="100%" height="100%" id="svg" viewBox="0 0 1440 700" xmlns="http://www.w3.org/2000/svg"
+           className="transition duration-300 ease-in-out delay-150 background-waves">
+        <defs>
+          <linearGradient id="gradient" x1="0%" y1="50%" x2="100%" y2="50%">
+            <stop offset="5%" stopColor="#002bdc77"/>
+            <stop offset="95%" stopColor="#32ded477"/>
+          </linearGradient>
+        </defs>
+        <path
+          d="M 0,700 C 0,700 0,233 0,233 C 164.93333333333334,206.73333333333335 329.8666666666667,180.46666666666667 508,198 C 686.1333333333333,215.53333333333333 877.4666666666667,276.8666666666667 1035,290 C 1192.5333333333333,303.1333333333333 1316.2666666666667,268.06666666666666 1440,233 C 1440,233 1440,700 1440,700 Z"
+          stroke="none" strokeWidth="0" fill="url(#gradient)"
+          className="transition-all duration-300 ease-in-out delay-150 path-0"/>
+        <defs>
+          <linearGradient id="gradient" x1="0%" y1="50%" x2="100%" y2="50%">
+            <stop offset="5%" stopColor="#002bdcff"/>
+            <stop offset="95%" stopColor="#32ded4ff"/>
+          </linearGradient>
+        </defs>
+        <path
+          d="M 0,700 C 0,700 0,466 0,466 C 185.46666666666664,449.4666666666667 370.9333333333333,432.93333333333334 523,417 C 675.0666666666667,401.06666666666666 793.7333333333333,385.73333333333335 941,394 C 1088.2666666666667,402.26666666666665 1264.1333333333332,434.1333333333333 1440,466 C 1440,466 1440,700 1440,700 Z"
+          stroke="none" strokeWidth="0" fill="url(#gradient)"
+          className="transition-all duration-300 ease-in-out delay-150 path-1"/>
+      </svg>
       <div className={'content'}>
         <div ref={leftPaper} className={'left-content'}>
           <Paper
@@ -81,10 +104,6 @@ const Resume = () => {
               <div className={'education'}>
                 <h4>Education</h4>
                 <ul>
-                  <li>Holy Cross Boys School<a href={'https://holycross.ar/'}><ChevronRightIcon
-                    className={'material-icons'} fontSize={'small'}/></a>
-                  </li>
-                  <li>IGCSE: English A*, Literature A*</li>
                   <li>
                     Universidad Austral: Ingeniería Informática (currently in my last year)
                     <a href={'https://www.austral.edu.ar/ingresantes/carreras/ingenieria-en-informatica/'}>
@@ -92,6 +111,9 @@ const Resume = () => {
                     </a>
                   </li>
                   <li>IELTS Academic: Overall Band 8.5 out of 9</li>
+                  <li>IGCSE: English A*, Literature A*</li>
+                  <li>Holy Cross Boys School<a href={'https://holycross.ar/'}><ChevronRightIcon
+                    className={'material-icons'} fontSize={'small'}/></a></li>
                   <div>
                     <p>Online Courses</p>
                     <ul>

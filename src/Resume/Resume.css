@@ -1,8 +1,8 @@
 :root {
     --background-color: #F8F0DF;
-    --surface: #FEFBF3;
+    --surface: #F7FBFC;
     --text: snow;
-    --band-color: #79B4B7;
+    --band-color: #002bdc88;
 }
 
 .root {
@@ -11,9 +11,15 @@
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-image: url("/src/assets/images/blob-scene-haikei-light.svg");
+    /*background-image: url("/src/assets/images/blob-scene-haikei-light.svg");*/
     background-size: cover;
     background-color: var(--background-color);
+}
+
+.background-waves {
+    position: fixed;
+    bottom: 0;
+    transform: translate(0, 25%);
 }
 
 a {
