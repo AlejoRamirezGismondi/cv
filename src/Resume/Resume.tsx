@@ -14,18 +14,14 @@ const Resume = () => {
   useEffect(() => {
     if (window.innerWidth < 1000) {
       setLeftPaperWidth(0);
-      return;
-    }
+    } else if (leftPaper?.current) setLeftPaperWidth(leftPaper.current.offsetWidth);
+
     const handleResize = () => {
       if (window.innerWidth < 1000) {
         setLeftPaperWidth(0);
-        return;
-      }
-      setLeftPaperWidth(leftPaper.current.offsetWidth);
+      } else setLeftPaperWidth(leftPaper.current.offsetWidth);
     }
-    if (leftPaper?.current) setLeftPaperWidth(leftPaper.current.offsetWidth);
     window.addEventListener('resize', handleResize);
-
     return () => {
       window.removeEventListener('resize', handleResize);
     }
