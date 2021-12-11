@@ -1,4 +1,4 @@
-import React, {useLayoutEffect, useRef, useState} from 'react';
+import React, {useEffect, useRef, useState} from 'react';
 import './Resume.css';
 import {Card, CardContent, Paper} from '@mui/material';
 import ChevronRightIcon from '@mui/icons-material/ChevronRight';
@@ -9,11 +9,26 @@ import Masonry from '@mui/lab/Masonry';
 
 const Resume = () => {
   const leftPaper = useRef(null);
-  const [leftPaperWidth, setLeftPaperWidth] = useState<number>(0);
+  const [leftPaperWidth, setLeftPaperWidth] = useState<number>();
 
-  useLayoutEffect(() => {
-    console.log(leftPaper?.current?.offsetWidth);
+  useEffect(() => {
+    if (window.innerWidth < 1000) {
+      setLeftPaperWidth(0);
+      return;
+    }
+    const handleResize = () => {
+      if (window.innerWidth < 1000) {
+        setLeftPaperWidth(0);
+        return;
+      }
+      setLeftPaperWidth(leftPaper.current.offsetWidth);
+    }
     if (leftPaper?.current) setLeftPaperWidth(leftPaper.current.offsetWidth);
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    }
   }, [leftPaper?.current?.offsetWidth]);
 
   return (
