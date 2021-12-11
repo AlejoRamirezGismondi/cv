@@ -35,7 +35,10 @@ const Resume = () => {
     <div className={'root'}>
       <div className={'content'}>
         <div ref={leftPaper} className={'left-content'}>
-          <Paper sx={{backgroundColor: '#EBECF6'}} className={'left-paper'} elevation={4}>
+          <Paper
+            sx={{backgroundColor: getComputedStyle(document.documentElement).getPropertyValue('--surface').toString()}}
+            className={'left-paper'}
+            elevation={4}>
             <div className={'title-container left-paper-section'}>
               <img className={'profile-pic'} alt={'Profile Pic'} src={profilePic}/>
               <h1 className={'title'}>Alejo Ramírez Gismondi</h1>
