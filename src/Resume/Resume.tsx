@@ -4,7 +4,7 @@ import {Card, CardContent, Paper} from '@mui/material';
 import ChevronRightIcon from '@mui/icons-material/ChevronRight';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
-import profilePic from '../assets/images/profile-pic.jpg';
+import profilePic from '../assets/images/CV-pic.jpeg';
 import Masonry from '@mui/lab/Masonry';
 
 const Resume = () => {
@@ -59,7 +59,9 @@ const Resume = () => {
             className={'left-paper'}
             elevation={4}>
             <div className={'title-container left-paper-section'}>
-              <img className={'profile-pic'} alt={'Profile Pic'} src={profilePic}/>
+              <div className={'profile-pic'}>
+                <img width={150} alt={'Profile Pic'} src={profilePic}/>
+              </div>
               <h1 className={'title'}>Alejo Ramírez Gismondi</h1>
               <h3>Software Engineer</h3>
             </div>

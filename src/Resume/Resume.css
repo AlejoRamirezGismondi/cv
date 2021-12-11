@@ -111,9 +111,14 @@ a {
 }
 
 .profile-pic {
-    max-height: 120px;
-    max-width: 120px;
+    max-height: 150px;
+    max-width: 150px;
     border-radius: 50%;
+    object-fit: fill;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .title-container {
