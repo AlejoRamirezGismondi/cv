@@ -2,7 +2,7 @@
     --background-color: #F8F0DF;
     --surface: #F7FBFC;
     --text: snow;
-    --band-color: #002bdc88;
+    --band-color: #7487dd;
 }
 
 .root {
@@ -216,12 +216,8 @@ a {
 
     .container {
         flex-direction: column;
-        align-items: center;
-    }
-
-    .technical-skills {
-        height: auto;
-        width: 100%;
+        align-items: flex-start;
+        padding: 10%;
     }
 
     .work-experience {
