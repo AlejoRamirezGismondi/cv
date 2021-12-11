@@ -33,7 +33,7 @@ const Resume = () => {
 
   return (
     <div className={'root'}>
-      <svg id="svg" viewBox="0 0 1440 500" xmlns="http://www.w3.org/2000/svg"
+      <svg id="svg" viewBox="0 0 1440 400" xmlns="http://www.w3.org/2000/svg"
            className="background-waves transition duration-300 ease-in-out delay-150">
         <defs>
           <linearGradient id="gradient" x1="0%" y1="50%" x2="100%" y2="50%">

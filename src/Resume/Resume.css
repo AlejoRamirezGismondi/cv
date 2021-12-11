@@ -71,6 +71,7 @@
 
 a {
     text-decoration: none;
+    color: inherit;
 }
 
 .material-icons {
