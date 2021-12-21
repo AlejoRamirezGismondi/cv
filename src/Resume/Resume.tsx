@@ -6,6 +6,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
 import HomeOutlineIcon from '@mui/icons-material/HomeOutlined';
 import profilePic from '../assets/images/CV-pic.jpeg';
+import webpProfilePic from '../assets/images/CV-pic.webp';
 import Masonry from '@mui/lab/Masonry';
 
 const Resume = () => {
@@ -61,7 +62,11 @@ const Resume = () => {
             elevation={4}>
             <div className={'title-container left-paper-section'}>
               <div className={'profile-pic'}>
-                <img width={150} alt={'Profile Pic'} src={profilePic}/>
+                <picture>
+                  <source type="image/jpeg" srcSet={profilePic}/>
+                  <source type="image/webp" srcSet={webpProfilePic}/>
+                  <img loading={'lazy'} width={150} src={profilePic} alt={'Profile Pic'}/>
+                </picture>
               </div>
               <h1 className={'title'}>Alejo Ramírez Gismondi</h1>
               <h3>Software Engineer</h3>

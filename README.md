@@ -14,7 +14,6 @@ Github: https://github.com/AlejoRamirezGismondi
 ##Roadmap:
 
 ###Next versions:
-- Address
 - Better mobile styling
 - Dark mode
 - Printing
