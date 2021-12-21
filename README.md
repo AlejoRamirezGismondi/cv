@@ -3,6 +3,8 @@
 
 Welcome, traveler! This is my personal page. It currently only shows my résumé, but it might be updated to have more sub-pages in the future.
 
+The webpage was created using React. It deploys to Github Pages automatically on push to master using a Github Actions workflow.
+
 Business Contact Info:
 
 Email: ramirezgismondialejo@gmail.com
@@ -12,6 +14,7 @@ Github: https://github.com/AlejoRamirezGismondi
 ##Roadmap:
 
 ###Next versions:
+- Address
 - Better mobile styling
 - Dark mode
 - Printing
@@ -21,5 +24,3 @@ Github: https://github.com/AlejoRamirezGismondi
 - Download as PDF button
 - Logo carousel
 - Logo for work experience cards
-
-#### This Project Was Created Using React

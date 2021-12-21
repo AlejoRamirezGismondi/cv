@@ -12,12 +12,12 @@ const Resume = () => {
   const [leftPaperWidth, setLeftPaperWidth] = useState<number>();
 
   useEffect(() => {
-    if (window.innerWidth < 1000) {
+    if (window.innerWidth < 1000 || window.innerHeight < 830) {
       setLeftPaperWidth(0);
     } else if (leftPaper?.current) setLeftPaperWidth(leftPaper.current.offsetWidth);
 
     const handleResize = () => {
-      if (window.innerWidth < 1000) {
+      if (window.innerWidth < 1000 || window.innerHeight < 830) {
         setLeftPaperWidth(0);
       } else setLeftPaperWidth(leftPaper.current.offsetWidth);
     }

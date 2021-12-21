@@ -178,14 +178,14 @@ a {
     background-color: var(--surface);
 }
 
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1440px), (max-height: 830px) {
     .work-experience {
         max-width: 90%;
         height: auto;
     }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1000px), (max-height: 830px) {
 
     .root {
         height: auto;
@@ -243,4 +243,8 @@ a {
     div, .card {
         break-inside: avoid;
     }
+}
+
+html {
+    scroll-behavior: smooth;
 }
