@@ -4,6 +4,7 @@ import {Card, CardContent, Paper} from '@mui/material';
 import ChevronRightIcon from '@mui/icons-material/ChevronRight';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
+import HomeOutlineIcon from '@mui/icons-material/HomeOutlined';
 import profilePic from '../assets/images/CV-pic.jpeg';
 import Masonry from '@mui/lab/Masonry';
 
@@ -67,6 +68,10 @@ const Resume = () => {
             </div>
             <div className={'left-paper-section'}>
               <h2>Contact</h2>
+              <p>
+                <HomeOutlineIcon className={'material-icons'} fontSize={'small'}/>
+                San Isidro, Buenos Aires, Argentina
+              </p>
               <p>
                 <a href={'mailto: ramirezgismondialejo@gmail.com'}>
                   <MailOutlineIcon className={'material-icons'} fontSize={'small'}/>
