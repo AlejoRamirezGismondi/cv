@@ -103,7 +103,7 @@ a {
     flex-direction: column;
     max-width: 85%;
     min-height: 80vh;
-    padding: 10px;
+    padding-top: 5px;
 }
 
 .left-paper-section {
@@ -178,14 +178,26 @@ a {
     background-color: var(--surface);
 }
 
-@media screen and (max-width: 1440px), (max-height: 830px) {
+@media (max-height: 830px) {
+    body {
+        font-size: 95%;
+    }
+}
+
+@media (max-height: 700px) {
+    body {
+        font-size: 80%;
+    }
+}
+
+@media screen and (max-width: 1440px), (max-height: 580px) {
     .work-experience {
         max-width: 90%;
         height: auto;
     }
 }
 
-@media screen and (max-width: 1000px), (max-height: 830px) {
+@media screen and (max-width: 1000px), (max-height: 580px) {
 
     .root {
         height: auto;

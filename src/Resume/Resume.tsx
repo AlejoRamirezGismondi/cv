@@ -12,17 +12,14 @@ import Masonry from '@mui/lab/Masonry';
 const Resume = () => {
   const leftPaper = useRef(null);
   const [leftPaperWidth, setLeftPaperWidth] = useState<number>();
-
-  useEffect(() => {
-    if (window.innerWidth < 1000 || window.innerHeight < 830) {
+  const handleResize = () => {
+    if (window.innerWidth < 1000 || window.innerHeight < 580) {
       setLeftPaperWidth(0);
     } else if (leftPaper?.current) setLeftPaperWidth(leftPaper.current.offsetWidth);
+  }
 
-    const handleResize = () => {
-      if (window.innerWidth < 1000 || window.innerHeight < 830) {
-        setLeftPaperWidth(0);
-      } else setLeftPaperWidth(leftPaper.current.offsetWidth);
-    }
+  useEffect(() => {
+    handleResize();
     window.addEventListener('resize', handleResize);
     return () => {
       window.removeEventListener('resize', handleResize);
@@ -65,7 +62,7 @@ const Resume = () => {
                 <picture>
                   <source type="image/jpeg" srcSet={profilePic}/>
                   <source type="image/webp" srcSet={webpProfilePic}/>
-                  <img loading={'lazy'} width={150} src={profilePic} alt={'Profile Pic'}/>
+                  <img width={150} height={200} src={profilePic} alt={'Profile Pic'}/>
                 </picture>
               </div>
               <h1 className={'title'}>Alejo Ramírez Gismondi</h1>
