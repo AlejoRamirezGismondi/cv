@@ -86,7 +86,7 @@ const Resume = () => {
             <div className={'left-paper-section'}>
               <h2>About Me</h2>
               <p>I enjoy trying different outlets and activities</p>
-              <p><a href={'https://mba.nucba.ac.jp/en/ranking/'}>Currently applying for a student exchange at Nagoya
+              <p><a href={'https://mba.nucba.ac.jp/en/ranking/'}>Student Exchange at Nagoya
                 University of Commerce and Business, Japan</a></p>
             </div>
           </Paper>
