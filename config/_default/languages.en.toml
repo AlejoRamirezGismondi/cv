@@ -1,0 +1,15 @@
+languageCode = "en"
+languageName = "English"
+weight = 1
+title = "Alejo Ramirez Gismondi"
+
+[params]
+displayName = "EN"
+isoCode = "en"
+rtl = false
+dateFormat = "2 January 2006"
+description = "Welcome to my personal website"
+
+[author]
+name = "Alejo Ramirez Gismondi"
+headline = ""
