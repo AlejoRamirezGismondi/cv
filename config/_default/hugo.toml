@@ -1,5 +1,5 @@
 theme = "blowfish"
-baseURL = "https://alejoramirezgismondi.github.io/"
+baseURL = "https://alejoramirezgismondi.github.io/cv/"
 languageCode = "en"
 defaultContentLanguage = "en"
 enableRobotsTXT = true
