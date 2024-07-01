@@ -4,10 +4,15 @@ autoSwitchAppearance = true
 enableSearch = false
 enableCodeCopy = false
 disableImageOptimization = false
+disableImageZoom = true
 disableTextInHeader = false
+defaultBacgroundImage = "diagonal.sgv"
+highlightCurrentMenuArea = true
+smartTOC = true
+smartTOCHideUnfocusedChildren = true
 
 [header]
-layout = "basic"
+layout = "fixed-fill-blur"
 
 [footer]
 showMenu = true
@@ -17,17 +22,18 @@ showAppearanceSwitcher = true
 showScrollToTop = true
 
 [homepage]
-layout = "background"
+layout = "background" # page, profile, hero, card, background
 showRecent = false
 showRecentItems = 5
 showMoreLink = false
-showMoreLinkDest = "/posts"
+showMoreLinkDest = "/portfolio"
 cardView = false
 cardViewScreenWidth = false
 layoutBackgroundBlur = false
+homepageImage = "diagonal.svg"
 
 [article]
-showDate = true
+showDate = false
 showViews = false
 showLikes = false
 showDateOnlyInArticle = false
@@ -44,12 +50,12 @@ seriesOpened = false
 showHeadingAnchors = true
 showPagination = true
 invertPagination = false
-showReadingTime = true
+showReadingTime = false
 showTableOfContents = false
 showTaxonomies = false
 showAuthorsBadges = false
-showWordCount = true
-showZenMode = false
+showWordCount = false
+showZenMode = true
 
 [list]
 showHero = false
