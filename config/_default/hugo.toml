@@ -8,7 +8,7 @@ summaryLength = 0
 buildDrafts = false
 buildFuture = false
 enableEmoji = true
-googleAnalytics = ""
+googleAnalytics = "G-ESRXX0HZ7E"
 noTimes = true
 
 [imaging]

@@ -9,7 +9,15 @@ isoCode = "en"
 rtl = false
 dateFormat = "2 January 2006"
 description = "Welcome to my personal website"
+# logo = "img/logo_inverted@0.25x.png"
+# secondaryLogo = "img/logo@0.25x.png"
 
 [author]
 name = "Alejo Ramirez Gismondi"
 headline = ""
+image = "avatar.jpg"
+bio = ""
+links = [
+{ linkedin = "https://www.linkedin.com/in/alejo-ramirez-gismondi/" },
+{ github = "https://github.com/AlejoRamirezGismondi" },
+]

@@ -11,6 +11,9 @@ highlightCurrentMenuArea = true
 smartTOC = true
 smartTOCHideUnfocusedChildren = true
 
+# defaultFeaturedImage = "/img/background.jpg"
+# defaultBackgroundImage = "/img/background.svg"
+
 [header]
 layout = "fixed-fill-blur"
 
