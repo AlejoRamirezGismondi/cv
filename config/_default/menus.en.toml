@@ -7,5 +7,11 @@ pageRef = "portfolio"
 identifier = "portfolio"
 weight = 9999
 
+[[main]]
+name = "Resume"
+pageRef = "resume"
+identifier = "resume"
+weight = 8000
+
 [[footer]]
 none = "none"

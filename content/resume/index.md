@@ -2,168 +2,68 @@
 title = 'Resume'
 date = 2024-06-30T22:32:34-03:00
 
-showDate : false
-showDateOnlyInArticle : false
-showDateUpdated : false
-showHeadingAnchors : false
-showPagination : false
-showReadingTime : false
-showTableOfContents : true
-showTaxonomies : false 
-showWordCount : false
-showSummary : false
-sharingLinks : false
-showEdit: false
-showViews: false
-showLikes: false
-layoutBackgroundHeaderSpace: false
+showDate = false
+showDateOnlyInArticle = false
+showDateUpdated = false
+showHeadingAnchors = false
+showPagination = false
+showReadingTime = false
+showTableOfContents = true
+showTaxonomies = false 
+showWordCount = false
+showSummary = false
+sharingLinks = false
+showEdit = false
+showViews = false
+showLikes = false
+layoutBackgroundHeaderSpace = false
 +++
 
 ## Experience
 
-<table>
-    <thead>
-        <tr>
-            <th>Company</th>
-            <th>Link</th>
-            <th>Role</th>
-            <th>Dates</th>
-            <th>Location</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td rowspan=3><img class="customEntitityLogo" src="docker.png"/></td>
-            <td rowspan=3><a href="https://www.docker.com/" target="_blank">Docker</a></td>
-        </tr>
-        <tr>
-            <td>Principal Product Manager</td>
-            <td>2024 - Present</td>
-            <td>Full Remote </br> Lisbon, PT</td>
-        </tr>
-        <tr>
-            <td>Staff Product Manager</td>
-            <td>2022 - 2024</td>
-            <td>Full Remote </br> Lisbon, PT</td>
-        </tr>
-        <tr>
-            <td><img class="customEntitityLogo" src="aws.png"/></td>
-            <td><a href="https://aws-startup-lofts.com/emea" target="_blank">AWS Startup Loft</a></td>
-            <td>Startup Advisor</td>
-            <td>2022 - 2024</td>
-            <td>Full Remote </br> Lisbon, PT</td>
-        </tr>
-        <tr>
-            <td rowspan=3><img class="customEntitityLogo" src="truphone.png"/></td>
-            <td rowspan=3><a href="https://www.truphone.com/" target="_blank">Truphone</a></td>
-        </tr>
-        <tr>
-            <td>Group Product Manager</td>
-            <td>2021 - 2022</td>
-            <td rowspan=2>Hybrid </br> Lisbon, PT</td>
-        </tr>
-        <tr>
-            <td>Senior Product Manager</td>
-            <td>2020 - 2021</td>
-        </tr>
-        <tr>
-            <td rowspan=3><img class="customEntitityLogo" src="vodafone.png"/></td>
-            <td rowspan=3><a href="https://www.vodafone.com/" target="_blank">Vodafone Group</a></td>
-        </tr>
-        <tr>
-            <td>Analytics Squad Lead </td>
-            <td>2019 - 2020</td>
-            <td rowspan=2>Lisbon, PT </br> London, UK</td>
-        </tr>
-        <tr>
-            <td>Senior Product Manager</td>
-            <td>2018 - 2019</td>
-        </tr>
-        <tr>
-            <td><img class="customEntitityLogo" src="sky.png"/></td>
-            <td><a href="https://www.sky.de/" target="_blank">Sky Deutschland</a></td>
-            <td>Senior Product Architect</td>
-            <td>2016 - 2018</td>
-            <td>Munich, DE</td>
-        </tr>
-        <tr>
-            <td><img class="customEntitityLogo" src="skimic.png"/></td>
-            <td><a href="https://skimic.com" target="_blank">Skimic</a> </td>
-            <td>Founder</td>
-            <td>2016 - 2017</td>
-            <td>Munich, DE</td>
-        </tr>
-        <tr>
-            <td><img class="customEntitityLogo" src="vodafone.png"/></td>
-            <td><a href="https://www.vodafone.com/" target="_blank">Vodafone Group</a></td>
-            <td>Product Manager</td>
-            <td>2015 - 2016</td>
-            <td>Lisbon, PT</br>London, UK</td>
-        </tr>
-         <tr>
-            <td rowspan=3><img class="customEntitityLogo" src="nos.png"/></td>
-            <td rowspan=3><a href="https://www.nos.pt" target="_blank">NOS</a></td>
-        </tr>
-         <tr>
-            <td>Product Manager</td>
-            <td>2014 - 2015</td>
-            <td rowspan=2>Lisbon, PT</td>
-        </tr>
-         <tr>
-            <td>Solutions Architect</td>
-            <td>2012 - 2014</td>
-        </tr>
-         <tr>
-            <td><img class="customEntitityLogo" src="inesc.png"/></td>
-            <td><a href="https://www.inesc-id.pt/" target="_blank">Inesc-ID</a></td>
-            <td>Junior Researcher</td>
-            <td>2011 - 2012</td>
-            <td>Lisbon, PT</td>
-        </tr>
-    </tbody>
-</table>
+{{< timeline >}}
 
----
+{{< timelineItem icon="github" header="PwC | Software Engineer (Global Team)" badge="Full-time US Remote" subheader="Apr 2023 - May 2024 · 1 yr 2 mos" >}}
+As part of the Global PwC Identity team, I work on Access Management solutions for our internal global services, mainly focusing on Forgerock products and Azure Devops pipelines
+{{< /timelineItem >}}
+
+{{< timelineItem icon="github" header="PwC | IAM Developer - Specialist 5" badge="Full-time Argentina Hybrid" subheader="Apr 2023 - May 2024 · 1 yr 2 mos" >}}
+Identity and Access Management developer for PwC internal services. Working as a full stack developer with Angular and Java
+{{< /timelineItem >}}
+
+{{< timelineItem icon="github" header="Connect the Dots | Product Owner and Front-end Developer" badge="Freelance Argentina Remote" subheader="Mar 2021 - Dec 2021 · 10 mos" >}}
+Web development in React and Mobile development in React Native. Together with my team, the job was to define requirements with the client, write User Stories, schedule a cronogram, and develop both the web and mobile platforms.
+{{< /timelineItem >}}
+
+{{< timelineItem icon="github" header="Elegimejor.net | Front-end Developer" badge="Freelance Argentina Remote" subheader="Aug 2020 - Jun 2021 · 11 mos" >}}
+Argentina · Remote
+Frontend Web development in Angular.
+Created and updated new pages for social insurance companies.
+In charge of implementing Search Engine Optimization (SEO) for the webpage.
+{{< /timelineItem >}}
+
+{{< /timeline >}}
+
+## Skills
 
 ## Education
 
-<table>
-    <thead>
-        <tr>
-            <th>School</th>
-            <th>Link</th>
-            <th>Degree</th>
-            <th>Date</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td rowspan=4><img class="customEntitityLogo" src="hbs.svg"/></td>
-            <td rowspan=4><a href="https://online.hbs.edu/" target="_blank">Harvard Business School Online</a></td>
-        </tr>
-        <tr>
-            <td>Launching Tech Ventures</td>
-            <td>2023</td>
-        </tr>
-         <tr>
-            <td>Entrepreneurship Essentials</td>
-            <td>2022</td>
-        </tr>
-        <tr>
-            <td>Disruptive Strategy</td>
-            <td>2021</td>
-        </tr>
-        <tr>
-            <td rowspan=3><img class="customEntitityLogo" src="ist.png"/></td>
-            <td rowspan=3><a href="https://tecnico.ulisboa.pt/en/" target="_blank">Tecnico Lisboa</a></td>
-        </tr>
-        <tr>
-            <td>MSc in Computer Science - Distributed Systems</td>
-            <td>2012</td>
-        </tr>
-        <tr>
-            <td>BSc, Computer Science</td>
-            <td>2010</td>
-        </tr>
-    </tbody>
-</table>
+{{< timeline >}}
+
+{{< timelineItem icon="github" header="Software Engineer Degree" subheader="Universidad Austral, Buenos Aires" >}}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non magna ex. Donec sollicitudin ut lorem quis lobortis. Nam ac ipsum libero. Sed a ex eget ipsum tincidunt venenatis quis sed nisl. Pellentesque sed urna vel odio consequat tincidunt id ut purus. Nam sollicitudin est sed dui interdum rhoncus.
+{{< /timelineItem >}}
+
+{{< timelineItem icon="github" header="International Exchange (MBA/MSc)" subheader="NUCB Business School Japan" >}}
+International Exchange Program at NUCB, Japan, as part of my Software Engineering Degree.
+
+I was able to complete this program with the help of the JASSO scholarship awarded by the Japanese government to exchange students with outstanding grades.
+
+Courses in NUCB included subjects from both MSc and MBA programs such as Design Thinking, Strategic Thinking, Digital Marketing, Service Design, etc.
+{{< /timelineItem >}}
+
+{{< /timeline >}}
+
+## Honors and Awards
+
+## Languages
