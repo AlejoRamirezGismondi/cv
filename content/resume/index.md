@@ -44,7 +44,11 @@ In charge of implementing Search Engine Optimization (SEO) for the webpage.
 
 {{< /timeline >}}
 
+---
+
 ## Skills
+
+---
 
 ## Education
 
@@ -64,6 +68,71 @@ Courses in NUCB included subjects from both MSc and MBA programs such as Design 
 
 {{< /timeline >}}
 
+---
+
 ## Honors and Awards
 
+<table>
+    <thead>
+        <tr>
+            <th>Date</th>
+            <th></th>
+            <th>Title</th>
+            <th>Issued by</th>
+            <th>Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Feb 2023</td>
+            <td><img class="customEntitityLogo" src="austral-logo.jpg" alt="Austral University Logo"/></td>
+            <td>Graduated with Honors Diploma</td>
+            <td>Universidad Austral</td>
+            <td>An honors diploma is awarded to students who graduate with a score of 7/10 or above</td>
+        </tr>
+        <tr>
+            <td>Feb 2023</td>
+            <td><img class="customEntitityLogo" src="austral-logo.jpg" alt="Austral University Logo"/></td>
+            <td>Silver Medal</td>
+            <td>Universidad Austral</td>
+            <td>Universidad Austral awards a silver medal to students who fulfill the following criteria:<br>
+- Achieve a GPA of 3.2 or above<br>
+- No failed final examinations</td>
+        </tr>
+    </tbody>
+</table>
+
+---
+
 ## Languages
+
+<table>
+    <thead>
+        <tr>
+            <th>Language</th>
+            <th>Level</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Spanish</td>
+            <td>Native</td>
+        </tr>
+        <tr>
+            <td>English</td>
+            <td>Bilingual</td>
+        </tr>
+        <tr>
+            <td>Japanese</td>
+            <td>Intermediate</td>
+        </tr>
+        <tr>
+            <td>Greek</td>
+            <td>Intermediate</td>
+        </tr>
+        <tr>
+            <td>French</td>
+            <td>Beginner</td>
+        </tr>
+    </tbody>
+</table>
