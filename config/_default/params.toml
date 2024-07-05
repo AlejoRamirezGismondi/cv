@@ -6,13 +6,11 @@ enableCodeCopy = false
 disableImageOptimization = false
 disableImageZoom = true
 disableTextInHeader = false
-defaultBacgroundImage = "diagonal.sgv"
+defaultBackgroundImage = "diagonal.sgv"
 highlightCurrentMenuArea = true
 smartTOC = true
 smartTOCHideUnfocusedChildren = true
-
 # defaultFeaturedImage = "/img/background.jpg"
-# defaultBackgroundImage = "/img/background.svg"
 
 [header]
 layout = "fixed-fill-blur"
@@ -44,14 +42,14 @@ showDateUpdated = false
 showAuthor = false
 showHero = false
 layoutBackgroundBlur = true
-layoutBackgroundHeaderSpace = true
+layoutBackgroundHeaderSpace = false
 showBreadcrumbs = false
 showDraftLabel = true
 showEdit = false
 editAppendPath = true
 seriesOpened = false
-showHeadingAnchors = true
-showPagination = true
+showHeadingAnchors = false
+showPagination = false
 invertPagination = false
 showReadingTime = false
 showTableOfContents = false

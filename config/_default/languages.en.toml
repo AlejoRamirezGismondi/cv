@@ -14,8 +14,8 @@ description = "Welcome to my personal website"
 
 [author]
 name = "Alejo Ramirez Gismondi"
-headline = ""
-image = "avatar.jpg"
+headline = "Software Engineer"
+image = "profile-pic.jpg"
 bio = ""
 links = [
 { linkedin = "https://www.linkedin.com/in/alejo-ramirez-gismondi/" },
