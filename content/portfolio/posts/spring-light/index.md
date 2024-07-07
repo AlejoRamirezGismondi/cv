@@ -21,10 +21,10 @@ You can find both the original paper and the presentation in the following links
   <img src="gallery/puzzle1.png" alt="In game puzzle" class="grid-w90" />
 {{< /gallery >}}
 
-{{< button href="Trabajo de Grado Entrega Final - Alejo Ramirez Gismondi - Spring Light.pdf" target="_self" >}}
+{{< button href="Trabajo de Grado Entrega Final - Alejo Ramirez Gismondi - Spring Light.pdf" target="_blank" >}}
 Download paper
 {{< /button >}}
 &nbsp;&nbsp;
-{{< button href="Presentacion-TdG.pptx" target="_self" >}}
+{{< button href="Presentacion-TdG.pptx" target="_blank" >}}
 Download presentation
 {{< /button >}}
