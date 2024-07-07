@@ -6,11 +6,11 @@ enableCodeCopy = false
 disableImageOptimization = false
 disableImageZoom = true
 disableTextInHeader = false
-defaultBackgroundImage = "diagonal.sgv"
+defaultBackgroundImage = "/img/diagonal.svg" # Default background image for both background homepage layout and background hero style
 highlightCurrentMenuArea = true
 smartTOC = true
 smartTOCHideUnfocusedChildren = true
-# defaultFeaturedImage = "/img/background.jpg"
+defaultFeaturedImage = "/img/background.jpg" # Default background image for all featured images across articles, will be overridden by a local featured image.
 
 [header]
 layout = "fixed-fill-blur"
@@ -31,16 +31,17 @@ showMoreLinkDest = "/portfolio"
 cardView = false
 cardViewScreenWidth = false
 layoutBackgroundBlur = false
-homepageImage = "diagonal.svg"
+homepageImage = "/img/diagonal.svg" # Image to be used in hero and card layouts
 
 [article]
+heroStyle = "background"
 showDate = false
 showViews = false
 showLikes = false
 showDateOnlyInArticle = false
 showDateUpdated = false
 showAuthor = false
-showHero = false
+showHero = true
 layoutBackgroundBlur = true
 layoutBackgroundHeaderSpace = false
 showBreadcrumbs = false
@@ -57,11 +58,12 @@ showTaxonomies = false
 showAuthorsBadges = false
 showWordCount = false
 showZenMode = true
+sharingLinks = [ "linkedin", "twitter", "whatsapp", "reddit", "email"]
 
 [list]
-showHero = false
+showHero = true
+heroStyle = "background"
 layoutBackgroundBlur = true
-layoutBackgroundHeaderSpace = true
 showBreadcrumbs = false
 showSummary = false
 showViews = false
