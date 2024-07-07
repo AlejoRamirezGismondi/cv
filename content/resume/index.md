@@ -47,17 +47,40 @@ In charge of implementing Search Engine Optimization (SEO) for the webpage.
 
 ## Skills
 
+- Design Thinking
+- Web Development
+- Mobile Development
+- Project Management
+- Game Design
+- Game Development
+- Agile / Scrum
+
+### Technologies
+
+- Java
+- Javascript / Typescript
+- Node.js
+- Linux Bash
+- Angular
+- React.js
+- React Native
+- C# / Unity
+- Docker
+- Microsoft Azure DevOps
+- HTML5
+- CSS
+
 ---
 
 ## Education
 
 {{< timeline >}}
 
-{{< timelineItem icon="graduation-cap" header="Software Engineer Degree" subheader="Universidad Austral, Buenos Aires" >}}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non magna ex. Donec sollicitudin ut lorem quis lobortis. Nam ac ipsum libero. Sed a ex eget ipsum tincidunt venenatis quis sed nisl. Pellentesque sed urna vel odio consequat tincidunt id ut purus. Nam sollicitudin est sed dui interdum rhoncus.
+{{< timelineItem icon="graduation-cap" header="Software Engineer Degree" subheader="Universidad Austral, Buenos Aires | 2018 - 2023" >}}
+I hold a Software Engineer degree from Universidad Austral, Buenos Aires, where I gained a strong foundation in Information Technology. The study plan spans five years of intensive studies including courses on OOP, software and architecture design and software development methodologies, amongst many others.
 {{< /timelineItem >}}
 
-{{< timelineItem icon="graduation-cap" header="International Exchange (MBA/MSc)" subheader="NUCB Business School Japan" >}}
+{{< timelineItem icon="graduation-cap" header="International Exchange (MBA/MSc)" subheader="NUCB Business School Japan | 2021" >}}
 International Exchange Program at NUCB, Japan, as part of my Software Engineering Degree.
 
 I was able to complete this program with the help of the JASSO scholarship awarded by the Japanese government to exchange students with outstanding grades.
