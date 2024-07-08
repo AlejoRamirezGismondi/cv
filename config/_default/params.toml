@@ -2,7 +2,7 @@ colorScheme = "blowfish"
 defaultAppearance = "light"
 autoSwitchAppearance = true
 enableSearch = false
-enableCodeCopy = false
+enableCodeCopy = true
 disableImageOptimization = false
 disableImageZoom = true
 disableTextInHeader = false
@@ -11,6 +11,8 @@ highlightCurrentMenuArea = true
 smartTOC = true
 smartTOCHideUnfocusedChildren = true
 defaultFeaturedImage = "/img/background.jpg" # Default background image for all featured images across articles, will be overridden by a local featured image.
+logo = "/img/logo.png" # Logo in header
+description = "Alejo Ramirez Gismondi personal website and portfolio. Experienced Software Engineer. Currently looking for work in Europe, especially roles related to Game Design and Game Development, Web3, Crypto or I+D+i." # For site metadata
 
 [header]
 layout = "fixed-fill-blur"
