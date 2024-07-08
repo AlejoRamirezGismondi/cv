@@ -1,6 +1,7 @@
 +++
 title = 'Game Portfolio'
 date = 2024-06-30T03:52:11Z
+layoutBackgroundHeaderSpace = false
 +++
 
 {{< lead >}}
