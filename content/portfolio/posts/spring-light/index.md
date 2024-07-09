@@ -1,6 +1,7 @@
 +++
 title = 'Spring Light'
 date = 2024-06-30T17:14:42-03:00
+summary = 'Videogame developed in Unity2D using C#, with complimenting research paper on Game Design and Game development'
 +++
 
 ![Spring Light Logo](SpringLightLogo.png)
