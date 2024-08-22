@@ -23,6 +23,10 @@ layoutBackgroundHeaderSpace = false
 
 {{< timeline >}}
 
+{{< timelineItem header="PetUs | Game Developer" badge="Freelance" subheader="Aug 2023 - Present" >}}
+Main game developer for the mobile game PetUs, developed in the Godot Engine.
+{{< /timelineItem >}}
+
 {{< timelineItem header="PwC | Software Engineer (Global Team)" badge="US" subheader="Apr 2023 - May 2024 · 1 yr 2 mos" >}}
 As part of the Global PwC Identity team, I work on Access Management solutions for our internal global services, mainly focusing on Forgerock products and Azure Devops pipelines
 {{< /timelineItem >}}
