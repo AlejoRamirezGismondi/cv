@@ -8,7 +8,7 @@ displayName = "EN"
 isoCode = "en"
 rtl = false
 dateFormat = "2 January 2006"
-description = "Welcome to my personal website"
+description = "Personal website for Alejo Ramirez Gismondi. Here I display my CV and projects I am working on."
 # logo = "img/logo_inverted@0.25x.png"
 # secondaryLogo = "img/logo@0.25x.png"
 

@@ -26,11 +26,11 @@ showScrollToTop = true
 
 [homepage]
 layout = "background" # page, profile, hero, card, background
-showRecent = false
+showRecent = true
 showRecentItems = 5
 showMoreLink = false
 showMoreLinkDest = "/portfolio"
-cardView = false
+cardView = true
 cardViewScreenWidth = false
 layoutBackgroundBlur = false
 homepageImage = "/img/diagonal.svg" # Image to be used in hero and card layouts
