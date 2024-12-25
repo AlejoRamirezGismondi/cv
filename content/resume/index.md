@@ -23,26 +23,40 @@ layoutBackgroundHeaderSpace = false
 
 {{< timeline >}}
 
-{{< timelineItem header="PetUs | Game Developer" badge="Freelance" subheader="Aug 2023 - Present" >}}
-Main game developer for the mobile game PetUs, developed in the Godot Engine.
+{{< timelineItem header="Coequiper.com | Software Developer" badge="Freelance" subheader="Sep 2024 - Present" >}}
+Front-End Engineer at Coequiper.com, a small startup providing AI-driven HR solutions. As an early team member, I designed and developed the entire client app independently.
+
+- In charge of designing and implementing UI/UX of product.
+- Implementing client application from scratch and integrating web app with backend.
+{{< /timelineItem >}}
+
+{{< timelineItem header="PetUs | Game Developer" badge="Freelance" subheader="Aug 2024 - Dec 2024" >}}
+Game Developer for PetUs, a mobile couples game created by a small team of the CEO, an art designer, and myself.
+
+- In charge of defining roadmap according to feature priorities.
+- Implementing features in mobile application using Godot 4.
 {{< /timelineItem >}}
 
 {{< timelineItem header="PwC | Software Engineer (Global Team)" badge="US" subheader="Apr 2023 - May 2024 · 1 yr 2 mos" >}}
-As part of the Global PwC Identity team, I work on Access Management solutions for our internal global services, mainly focusing on Forgerock products and Azure Devops pipelines
+Developer for PwC AC and PwC Global IFS internal services. Worked as a full stack developer with Angular, Java and Azure DevOps Pipelines. I also redesigned the onboarding process and wrote a technical guide for new members.
+
+- Worked with Azure Devops pipelines, checking for code security using tools such as Veracode and
+SonarQube
+- Worked on the client UI with Angular
 {{< /timelineItem >}}
 
 {{< timelineItem header="PwC | IAM Developer - Specialist 5" badge="Argentina" subheader="Apr 2023 - May 2024 · 1 yr 2 mos" >}}
-Identity and Access Management developer for PwC internal services. Working as a full stack developer with Angular and Java
+Identity and Access Management developer for PwC internal services. Working as a full stack developer with Angular and Java.
 {{< /timelineItem >}}
 
 {{< timelineItem header="Connect the Dots | Product Owner and Front-end Developer" badge="Freelance" subheader="Mar 2021 - Dec 2021 · 10 mos" >}}
-Web development in React and Mobile development in React Native. Together with my team, the job was to define requirements with the client, write User Stories, schedule a cronogram, and develop both the web and mobile platforms.
+Lead Developer at Connect the Dots, an organization promoting sustainability through user-driven objectives. I spearheaded system architecture design, selected the tech stack, and took on roles as PM, PO, and Front-End Developer. Collaborating with my team, I defined client requirements, wrote user stories, created project timelines, and developed web and mobile platforms.
 {{< /timelineItem >}}
 
 {{< timelineItem header="Elegimejor.net | Front-end Developer" badge="Freelance" subheader="Aug 2020 - Jun 2021 · 11 mos" >}}
-Frontend Web development in Angular.
-Created and updated new pages for social insurance companies.
-In charge of implementing Search Engine Optimization (SEO) for the webpage.
+Developed and updated web pages for social insurance companies, facilitating client communication about benefits and drawbacks. Implemented SEO strategies to enhance website visibility.
+
+- Front-End web development in Angular
 {{< /timelineItem >}}
 
 {{< /timeline >}}
