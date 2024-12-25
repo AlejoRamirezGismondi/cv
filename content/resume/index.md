@@ -26,8 +26,10 @@ layoutBackgroundHeaderSpace = false
 {{< timelineItem header="Coequiper.com | Software Developer" badge="Freelance" subheader="Sep 2024 - Present" >}}
 Front-End Engineer at Coequiper.com, a small startup providing AI-driven HR solutions. As an early team member, I designed and developed the entire client app independently.
 
-- In charge of designing and implementing UI/UX of product.
-- Implementing client application from scratch and integrating web app with backend.
+<ul>
+<li>In charge of designing and implementing UI/UX of product.</li>
+<li>Implementing client application from scratch and integrating web app with backend.</li>
+</ul>
 {{< /timelineItem >}}
 
 {{< timelineItem header="PetUs | Game Developer" badge="Freelance" subheader="Aug 2024 - Dec 2024" >}}
