@@ -35,16 +35,20 @@ Front-End Engineer at Coequiper.com, a small startup providing AI-driven HR solu
 {{< timelineItem header="PetUs | Game Developer" badge="Freelance" subheader="Aug 2024 - Dec 2024" >}}
 Game Developer for PetUs, a mobile couples game created by a small team of the CEO, an art designer, and myself.
 
-- In charge of defining roadmap according to feature priorities.
-- Implementing features in mobile application using Godot 4.
+<ul>
+<li>In charge of defining roadmap according to feature priorities.</li>
+<li>Implementing features in mobile application using Godot 4.</li>
+</ul>
 {{< /timelineItem >}}
 
 {{< timelineItem header="PwC | Software Engineer (Global Team)" badge="US" subheader="Apr 2023 - May 2024 · 1 yr 2 mos" >}}
 Developer for PwC AC and PwC Global IFS internal services. Worked as a full stack developer with Angular, Java and Azure DevOps Pipelines. I also redesigned the onboarding process and wrote a technical guide for new members.
 
-- Worked with Azure Devops pipelines, checking for code security using tools such as Veracode and
-SonarQube
-- Worked on the client UI with Angular
+<ul>
+<li>Worked with Azure Devops pipelines, checking for code security using tools such as Veracode and
+SonarQube.</li>
+<li>Worked on the client UI with Angular.</li>
+</ul>
 {{< /timelineItem >}}
 
 {{< timelineItem header="PwC | IAM Developer - Specialist 5" badge="Argentina" subheader="Apr 2023 - May 2024 · 1 yr 2 mos" >}}
@@ -58,7 +62,9 @@ Lead Developer at Connect the Dots, an organization promoting sustainability thr
 {{< timelineItem header="Elegimejor.net | Front-end Developer" badge="Freelance" subheader="Aug 2020 - Jun 2021 · 11 mos" >}}
 Developed and updated web pages for social insurance companies, facilitating client communication about benefits and drawbacks. Implemented SEO strategies to enhance website visibility.
 
-- Front-End web development in Angular
+<ul>
+<li>Front-End web development in Angular.</li>
+</ul>
 {{< /timelineItem >}}
 
 {{< /timeline >}}
