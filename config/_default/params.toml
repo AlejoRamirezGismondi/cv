@@ -26,7 +26,7 @@ showScrollToTop = true
 
 [homepage]
 layout = "background" # page, profile, hero, card, background
-showRecent = true
+showRecent = false
 showRecentItems = 5
 showMoreLink = false
 showMoreLinkDest = "/portfolio"

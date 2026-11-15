@@ -2,7 +2,7 @@
 none = "none"
 
 [[main]]
-name = "Portfolio"
+name = "Side projects"
 pageRef = "portfolio"
 identifier = "portfolio"
 weight = 9999

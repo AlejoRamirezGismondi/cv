@@ -16,12 +16,12 @@ Goal: position the site for remote Product Manager roles (Technical / API / plat
 - [ ] December: update location wording on About page and site description
 - [x] Languages: remove Japanese, Greek and French; keep Spanish (Native) and English (Bilingual), matching the CV
 - [x] Fix CV mismatches: NUCB date (2021 → Apr–Jul 2022), Connect the Dots title ("Lead Developer" → Developer / Product Owner)
-- [ ] Homepage: stop the D&D one-shots from being the first thing visitors see (adjust `showRecent` or what feeds it)
-- [ ] Add CV download button(s) on the resume page (master CV, optionally the role variants)
-- [ ] Add a visible contact path (email / "Get in touch" CTA) alongside LinkedIn and GitHub
-- [ ] Reword skills to product language matching the CV (backlog & roadmap ownership, requirements & user stories, technical documentation, Agile/Scrum, cross-functional leadership); trim Linux Bash / HTML5 / CSS; improve skills and languages styling
+- [x] Homepage: stop the D&D one-shots from being the first thing visitors see (adjust `showRecent` or what feeds it)
+- [x] Add CV download button(s) on the resume page (master CV, optionally the role variants)
+- [x] Add a visible contact path (email / "Get in touch" CTA) alongside LinkedIn and GitHub
+- [x] Reword skills to product language matching the CV (backlog & roadmap ownership, requirements & user stories, technical documentation, Agile/Scrum, cross-functional leadership); trim Linux Bash / HTML5 / CSS; improve skills and languages styling
 - [x] Fix typos: "fron scratch", "complimenting" → complementing, "final theses" → thesis
-- [ ] Move games under a secondary section ("Side projects" / "Games") instead of the main portfolio
+- [x] Move games under a secondary section ("Side projects" / "Games") instead of the main portfolio
 
 ## Phase 2: Highest-value additions
 

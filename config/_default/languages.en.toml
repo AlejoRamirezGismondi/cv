@@ -18,6 +18,7 @@ headline = "Product Manager - Software Engineer"
 image = "profile-pic.jpg"
 bio = ""
 links = [
+{ email = "mailto:ramirezgismondialejo@gmail.com" },
 { linkedin = "https://www.linkedin.com/in/alejo-ramirez-gismondi/" },
 { github = "https://github.com/AlejoRamirezGismondi" },
 ]

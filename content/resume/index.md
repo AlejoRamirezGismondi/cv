@@ -19,6 +19,10 @@ showLikes = false
 layoutBackgroundHeaderSpace = false
 +++
 
+{{< button href="Alejo_Ramirez_Gismondi_CV.pdf" target="_blank" >}}
+{{< icon "download" >}} Download CV (PDF)
+{{< /button >}}
+
 ## Experience
 
 {{< timeline >}}
@@ -84,28 +88,35 @@ Developed and updated web pages for social insurance companies, facilitating cli
 
 ## Skills
 
-- Design Thinking
-- Web Development
-- Mobile Development
-- Project Management
-- Game Design
-- Game Development
-- Agile / Scrum
+### Product & Strategy
 
-### Technologies
+{{< keywordList >}}
+{{< keyword >}}Product backlog & roadmap ownership{{< /keyword >}}
+{{< keyword >}}Requirements gathering & user stories{{< /keyword >}}
+{{< keyword >}}Technical documentation{{< /keyword >}}
+{{< keyword >}}Agile / Scrum{{< /keyword >}}
+{{< keyword >}}Cross-functional leadership{{< /keyword >}}
+{{< keyword >}}Design Thinking{{< /keyword >}}
+{{< keyword >}}Jira{{< /keyword >}}
+{{< keyword >}}Confluence{{< /keyword >}}
+{{< /keywordList >}}
 
-- Java
-- Javascript / Typescript
-- Node.js
-- Linux Bash
-- Angular
-- React.js
-- React Native
-- C# / Unity
-- Docker
-- Microsoft Azure DevOps
-- HTML5
-- CSS
+### Technical
+
+{{< keywordList >}}
+{{< keyword >}}React{{< /keyword >}}
+{{< keyword >}}Next.js{{< /keyword >}}
+{{< keyword >}}TypeScript / JavaScript{{< /keyword >}}
+{{< keyword >}}Node.js{{< /keyword >}}
+{{< keyword >}}Java{{< /keyword >}}
+{{< keyword >}}Angular{{< /keyword >}}
+{{< keyword >}}React Native{{< /keyword >}}
+{{< keyword >}}Godot{{< /keyword >}}
+{{< keyword >}}C# / Unity{{< /keyword >}}
+{{< keyword >}}Docker{{< /keyword >}}
+{{< keyword >}}Git / GitHub Actions{{< /keyword >}}
+{{< keyword >}}Azure DevOps{{< /keyword >}}
+{{< /keywordList >}}
 
 ---
 
