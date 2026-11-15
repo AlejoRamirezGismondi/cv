@@ -19,9 +19,13 @@ showLikes = false
 layoutBackgroundHeaderSpace = false
 +++
 
+<div class="cv-download">
+
 {{< button href="Alejo_Ramirez_Gismondi_CV.pdf" target="_blank" >}}
 {{< icon "download" >}} Download CV (PDF)
 {{< /button >}}
+
+</div>
 
 ## Experience
 
@@ -90,33 +94,11 @@ Developed and updated web pages for social insurance companies, facilitating cli
 
 ### Product & Strategy
 
-{{< keywordList >}}
-{{< keyword >}}Product backlog & roadmap ownership{{< /keyword >}}
-{{< keyword >}}Requirements gathering & user stories{{< /keyword >}}
-{{< keyword >}}Technical documentation{{< /keyword >}}
-{{< keyword >}}Agile / Scrum{{< /keyword >}}
-{{< keyword >}}Cross-functional leadership{{< /keyword >}}
-{{< keyword >}}Design Thinking{{< /keyword >}}
-{{< keyword >}}Jira{{< /keyword >}}
-{{< keyword >}}Confluence{{< /keyword >}}
-{{< /keywordList >}}
+{{< skills items="Product backlog & roadmap ownership|Requirements gathering & user stories|Technical documentation|Agile / Scrum|Cross-functional leadership|Design Thinking|Jira|Confluence" >}}
 
 ### Technical
 
-{{< keywordList >}}
-{{< keyword >}}React{{< /keyword >}}
-{{< keyword >}}Next.js{{< /keyword >}}
-{{< keyword >}}TypeScript / JavaScript{{< /keyword >}}
-{{< keyword >}}Node.js{{< /keyword >}}
-{{< keyword >}}Java{{< /keyword >}}
-{{< keyword >}}Angular{{< /keyword >}}
-{{< keyword >}}React Native{{< /keyword >}}
-{{< keyword >}}Godot{{< /keyword >}}
-{{< keyword >}}C# / Unity{{< /keyword >}}
-{{< keyword >}}Docker{{< /keyword >}}
-{{< keyword >}}Git / GitHub Actions{{< /keyword >}}
-{{< keyword >}}Azure DevOps{{< /keyword >}}
-{{< /keywordList >}}
+{{< skills items="React|Next.js|TypeScript / JavaScript|Node.js|Java|Angular|React Native|Godot|C# / Unity|Docker|Git / GitHub Actions|Azure DevOps" >}}
 
 ---
 

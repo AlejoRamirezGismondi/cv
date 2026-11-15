@@ -1,0 +1,4 @@
+{{- /* Usage: {{< skills items="React|Next.js|Docker" >}} */ -}}
+<div class="skill-pills not-prose">
+  {{- range split (.Get "items") "|" }}{{ with trim . " " }}<span class="skill-pill">{{ . }}</span>{{ end }}{{ end -}}
+</div>

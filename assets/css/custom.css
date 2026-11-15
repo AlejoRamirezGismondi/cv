@@ -52,3 +52,32 @@
 td {
     vertical-align: middle !important;
 }
+/* Skill pills (layouts/shortcodes/skills.html) */
+.skill-pills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin: 0.75rem 0 1.75rem;
+}
+
+.skill-pill {
+    display: inline-block;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    padding: 0.3rem 0.85rem;
+    border-radius: 9999px;
+    border: 1px solid rgba(var(--color-primary-300), 1);
+    background-color: rgba(var(--color-primary-100), 1);
+    color: rgba(var(--color-primary-900), 1);
+}
+
+.dark .skill-pill {
+    border-color: rgba(var(--color-primary-700), 1);
+    background-color: rgba(var(--color-primary-900), 0.55);
+    color: rgba(var(--color-primary-100), 1);
+}
+
+/* Keep the CV download button clear of the mobile table of contents */
+.cv-download {
+    margin: 1.5rem 0 0.5rem;
+}

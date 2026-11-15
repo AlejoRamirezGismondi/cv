@@ -13,7 +13,9 @@ Goal: position the site for remote Product Manager roles (Technical / API / plat
 - [x] Change author headline from "Software Engineer" to a product headline
 - [x] Rewrite About page: drop "looking for work in Europe… Game Design, Web3, Crypto or I+D+i", state the product focus and target areas, keep one line of personality (D&D)
 - [x] Update site metadata: `params.toml` description and `languages.en.toml` description/title so search and link previews say Product Manager
-- [ ] December: update location wording on About page and site description
+- [x] Update location wording on About page and site description (relocating to Sydney, Jan 2027)
+- [ ] After arrival (late Jan 2027): switch About, site description and CV to "based in Sydney" with a +61 number
+- [x] Fix skill pill styling and CV download button spacing on mobile
 - [x] Languages: remove Japanese, Greek and French; keep Spanish (Native) and English (Bilingual), matching the CV
 - [x] Fix CV mismatches: NUCB date (2021 → Apr–Jul 2022), Connect the Dots title ("Lead Developer" → Developer / Product Owner)
 - [x] Homepage: stop the D&D one-shots from being the first thing visitors see (adjust `showRecent` or what feeds it)
@@ -26,7 +28,7 @@ Goal: position the site for remote Product Manager roles (Technical / API / plat
 ## Phase 2: Highest-value additions
 
 - [ ] Case study: Hackathon due-diligence automation (context, role, constraints, decisions, outcome, learnings) (needs Alejo's input)
-- [ ] "How I work" statement: working style, async-first, open to on-site / hybrid / remote and contract roles
+- [ ] "How I work" statement: Sydney-based from Jan 2027, open to on-site / hybrid / remote and contract roles, async-first
 
 ## Phase 3: Deeper proof of work (needs Alejo's input)
 

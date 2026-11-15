@@ -12,7 +12,7 @@ smartTOC = true
 smartTOCHideUnfocusedChildren = true
 defaultFeaturedImage = "/img/background.jpg" # Default background image for all featured images across articles, will be overridden by a local featured image.
 logo = "/img/logo.png" # Logo in header
-description = "Alejo Ramirez Gismondi, Product Manager and Software Engineer. Resume, experience and projects." # For site metadata
+description = "Alejo Ramirez Gismondi, Product Manager and Software Engineer, relocating to Sydney (Jan 2027)." # For site metadata
 
 [header]
 layout = "fixed-fill-blur"
