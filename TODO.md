@@ -8,24 +8,25 @@ Goal: position the site for remote Product Manager roles (Technical / API / plat
 
 ## Phase 1: Consistency and positioning (quick wins)
 
-- [ ] Add TransPerfect (Junior Technical PM, GLE, Jan 2025 – Present) to the resume timeline, including the hackathon win (18 teams, 80%+ overhead reduction)
-- [ ] Close the Coequiper entry (Sep 2024 – Feb 2025) and retitle it Software Engineer (Front-End)
-- [ ] Change author headline from "Software Engineer" to a product headline
-- [ ] Rewrite About page: drop "looking for work in Europe… Game Design, Web3, Crypto or I+D+i", state the product focus and target areas, keep one line of personality (D&D)
-- [ ] Update site metadata: `params.toml` description and `languages.en.toml` description/title so search and link previews say Product Manager
-- [ ] Languages: remove Japanese, Greek and French; keep Spanish (Native) and English (Bilingual), matching the CV
-- [ ] Fix CV mismatches: NUCB date (2021 → Apr–Jul 2022), Connect the Dots title ("Lead Developer" → Developer / Product Owner)
+- [x] Add TransPerfect (Junior Technical PM, GLE, Jan 2025 – Present) to the resume timeline, including the hackathon win (18 teams, 80%+ overhead reduction)
+- [x] Close the Coequiper entry (Sep 2024 – Feb 2025) and retitle it Software Engineer (Front-End)
+- [x] Change author headline from "Software Engineer" to a product headline
+- [x] Rewrite About page: drop "looking for work in Europe… Game Design, Web3, Crypto or I+D+i", state the product focus and target areas, keep one line of personality (D&D)
+- [x] Update site metadata: `params.toml` description and `languages.en.toml` description/title so search and link previews say Product Manager
+- [ ] December: update location wording on About page and site description
+- [x] Languages: remove Japanese, Greek and French; keep Spanish (Native) and English (Bilingual), matching the CV
+- [x] Fix CV mismatches: NUCB date (2021 → Apr–Jul 2022), Connect the Dots title ("Lead Developer" → Developer / Product Owner)
 - [ ] Homepage: stop the D&D one-shots from being the first thing visitors see (adjust `showRecent` or what feeds it)
 - [ ] Add CV download button(s) on the resume page (master CV, optionally the role variants)
 - [ ] Add a visible contact path (email / "Get in touch" CTA) alongside LinkedIn and GitHub
 - [ ] Reword skills to product language matching the CV (backlog & roadmap ownership, requirements & user stories, technical documentation, Agile/Scrum, cross-functional leadership); trim Linux Bash / HTML5 / CSS; improve skills and languages styling
-- [ ] Fix typos: "fron scratch", "complimenting" → complementing, "final theses" → thesis
+- [x] Fix typos: "fron scratch", "complimenting" → complementing, "final theses" → thesis
 - [ ] Move games under a secondary section ("Side projects" / "Games") instead of the main portfolio
 
 ## Phase 2: Highest-value additions
 
 - [ ] Case study: Hackathon due-diligence automation (context, role, constraints, decisions, outcome, learnings) (needs Alejo's input)
-- [ ] "How I work" remote statement: Sydney (AEST/AEDT), overlap with US West Coast afternoons and EU mornings, async-first, open to contractor / EOR
+- [ ] "How I work" statement: working style, async-first, open to on-site / hybrid / remote and contract roles
 
 ## Phase 3: Deeper proof of work (needs Alejo's input)
 

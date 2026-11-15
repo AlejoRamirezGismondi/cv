@@ -8,13 +8,13 @@ displayName = "EN"
 isoCode = "en"
 rtl = false
 dateFormat = "2 January 2006"
-description = "Personal website for Alejo Ramirez Gismondi. Here I display my CV and projects I am working on."
+description = "Alejo Ramirez Gismondi, Product Manager and Software Engineer. Resume, experience and projects."
 # logo = "img/logo_inverted@0.25x.png"
 # secondaryLogo = "img/logo@0.25x.png"
 
 [author]
 name = "Alejo Ramirez Gismondi"
-headline = "Software Engineer"
+headline = "Product Manager - Software Engineer"
 image = "profile-pic.jpg"
 bio = ""
 links = [

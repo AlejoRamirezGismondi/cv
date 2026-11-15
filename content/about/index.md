@@ -6,8 +6,10 @@ showAuthor = true
 showHero = true
 +++
 
-Experienced Software Engineer. Currently looking for work in Europe, especially roles related to Game Design and Development, Web3, Crypto or I+D+i.
+I'm a Product Manager with a software engineering background. At TransPerfect I own the backlog and roadmap for GlobalLink Enterprise, an enterprise B2B localization and automation platform: prioritizing features, coordinating delivery with engineering, and writing the technical documentation for the product and its API.
 
-I have a particular interest for Game Design and Game Development, and have focused my final theses from university on that subject, developing a videogame in the Unity Engine. In my free time I like playing games with my friends. We have a Dungeons and Dragons group that gets together once a week to enjoy some epic storytelling and dice rolling.
+Before moving into product, I spent several years as a developer, building web and mobile products end to end, often as the person defining the requirements as well as writing the code. That lets me work closely with engineers, reason about APIs and technical trade-offs, and write specs that are ready to build.
 
-With a passion for what I do and a dedication to delivering high-quality solutions, I am constantly seeking opportunities to expand my knowledge and contribute to innovative projects. Feel free to connect with me to discuss potential collaborations or explore new possibilities.
+I'm most interested in technical and platform products, fintech and crypto, B2B SaaS and workflow automation, and games. I'm open to on-site, hybrid and remote roles, and comfortable working with async-first teams.
+
+Outside work, I'm part of a weekly Dungeons & Dragons group, and I write some of our adventures myself.

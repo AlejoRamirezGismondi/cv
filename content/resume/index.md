@@ -23,7 +23,18 @@ layoutBackgroundHeaderSpace = false
 
 {{< timeline >}}
 
-{{< timelineItem header="Coequiper.com | Software Developer" badge="Freelance" subheader="Sep 2024 - Present" >}}
+{{< timelineItem header="TransPerfect | Junior Technical Product Manager" badge="Barcelona" subheader="Jan 2025 - Present" >}}
+Product Manager for GlobalLink Enterprise (GLE), TransPerfect's enterprise localization and automation platform.
+
+<ul>
+<li>Own and groom the product backlog in Jira, prioritizing new features and improvements for GLE and its API.</li>
+<li>Drive planning for the general development of the platform, coordinating scope and delivery with engineering.</li>
+<li>Author technical documentation for the product and its API.</li>
+<li>Won company-wide Hackathon (18 cross-divisional teams) with a concept to automate due diligence workflows, cutting overhead by over 80% for some workflows.</li>
+</ul>
+{{< /timelineItem >}}
+
+{{< timelineItem header="Coequiper.com | Software Engineer (Front-End)" badge="Freelance" subheader="Sep 2024 - Feb 2025 · 6 mos" >}}
 Front-End Engineer at Coequiper.com, a small startup providing AI-driven HR solutions. As an early team member, I designed and developed the entire client app independently.
 
 <ul>
@@ -55,8 +66,8 @@ SonarQube.</li>
 Identity and Access Management developer for PwC internal services. Working as a full stack developer with Angular and Java.
 {{< /timelineItem >}}
 
-{{< timelineItem header="Connect the Dots | Product Owner and Front-end Developer" badge="Freelance" subheader="Mar 2021 - Dec 2021 · 10 mos" >}}
-Lead Developer at Connect the Dots, an organization promoting sustainability through user-driven objectives. I spearheaded system architecture design, selected the tech stack, and took on roles as PM, PO, and Front-End Developer. Collaborating with my team, I defined client requirements, wrote user stories, created project timelines, and developed web and mobile platforms.
+{{< timelineItem header="Connect the Dots | Developer / Product Owner" badge="Freelance" subheader="Mar 2021 - Dec 2021 · 10 mos" >}}
+Developer and de facto Product Owner at Connect the Dots, an organization promoting sustainability through user-driven objectives. I spearheaded system architecture design, selected the tech stack, and took on roles as PM, PO, and Front-End Developer. Collaborating with my team, I defined client requirements, wrote user stories, created project timelines, and developed web and mobile platforms.
 {{< /timelineItem >}}
 
 {{< timelineItem header="Elegimejor.net | Front-end Developer" badge="Freelance" subheader="Aug 2020 - Jun 2021 · 11 mos" >}}
@@ -106,7 +117,7 @@ Developed and updated web pages for social insurance companies, facilitating cli
 I hold a Software Engineer degree from Universidad Austral, Buenos Aires, where I gained a strong foundation in Information Technology. The study plan spans five years of intensive studies including courses on OOP, software and architecture design and software development methodologies, amongst many others.
 {{< /timelineItem >}}
 
-{{< timelineItem icon="graduation-cap" header="International Exchange (MBA/MSc)" subheader="NUCB Business School Japan | 2021" >}}
+{{< timelineItem icon="graduation-cap" header="International Exchange (MBA/MSc)" subheader="NUCB Business School Japan | Apr - Jul 2022" >}}
 International Exchange Program at NUCB, Japan, as part of my Software Engineering Degree.
 
 I was able to complete this program with the help of the JASSO scholarship awarded by the Japanese government to exchange students with outstanding grades.
@@ -169,18 +180,6 @@ Courses in NUCB included subjects from both MSc and MBA programs such as Design 
         <tr>
             <td>English</td>
             <td>Bilingual</td>
-        </tr>
-        <tr>
-            <td>Japanese</td>
-            <td>Intermediate</td>
-        </tr>
-        <tr>
-            <td>Greek</td>
-            <td>Intermediate</td>
-        </tr>
-        <tr>
-            <td>French</td>
-            <td>Beginner</td>
         </tr>
     </tbody>
 </table>
